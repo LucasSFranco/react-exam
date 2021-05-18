@@ -1,11 +1,10 @@
 import { cloneElement, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
-
 import styled from 'styled-components'
 
 import { Times } from '@/assets/icons'
 
-function Modal({ content, children }) {
+function Modal({ content, children, ...otherProps }) {
   const modalRef = useRef()
 
   const [isVisible, setVisibility] = useState(false)
@@ -31,9 +30,13 @@ function Modal({ content, children }) {
               className="modal"
               ref={modalRef}
               onClick={({ target }) => target === modalRef.current && close()}
+              {...otherProps}
             >
               <div className="modal__content">
-                <button className="modal__closer" onClick={close}>
+                <button
+                  className="modal__closer"
+                  onClick={close}
+                >
                   <Times />
                 </button>
                 {content}
@@ -59,7 +62,6 @@ const Self = styled.div`
   bottom: 0;
 
   background: rgba(0, 0, 0, .25);
-
   z-index: 999;
 
   .modal__content {
@@ -73,10 +75,9 @@ const Self = styled.div`
       color: var(--text-secondary);
       cursor: pointer;
       font-size: 1.25rem;
+      z-index: 99;
 
       transition: 50ms color;
-
-      z-index: 99;
 
       &:hover {
         color: var(--text-primary);

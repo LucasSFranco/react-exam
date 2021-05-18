@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
+const Container = styled.div.attrs(
+  () => ({ className: 'container' })
+)`
   margin: 0 1.5rem;
 
   @media (min-width: 768px) {

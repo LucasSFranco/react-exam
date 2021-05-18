@@ -1,41 +1,41 @@
 import { useCallback, useEffect, useRef } from 'react'
-import { useParams } from 'react-router'
 import { useDispatch, useSelector } from 'react-redux'
-
-import {
-  getAllArticlesCount,
-  getTopicArticlesCount,
-  getArticlesByTopic,
-  getAllArticles,
-  selectActiveTab,
-  selectCount,
-  selectArticles,
-} from '@/store/slices/appSlice'
+import { useParams } from 'react-router'
 
 import ArticleListItemSkeleton from '@/views/content/ArticleListItemSkeleton'
 import ArticleListItem from '@/views/content/ArticleListItem'
 import ArticleModal from '@/views/content/ArticleModal'
+import {
+  getAllArticles,
+  getAllArticlesCount,
+  getArticlesByTopic,
+  getTopicArticlesCount,
+  selectActiveTab,
+  selectArticles,
+  selectCount,
+  selectSynching,
+} from '@/store/slices/appSlice'
 
 import styled from 'styled-components'
 
 function ArticleList() {
-  const params = useParams()
-
   const dispatch = useDispatch()
-
-  const articles = useSelector(selectArticles)
   const activeTab = useSelector(selectActiveTab)
+  const articles = useSelector(selectArticles)
   const count = useSelector(selectCount)
+  const synching = useSelector(selectSynching)
 
   useEffect(() => {
-    if(params.topic) {
-      dispatch(getArticlesByTopic(params.topic))
-      dispatch(getTopicArticlesCount(params.topic))
-    } else {
-      dispatch(getAllArticles())
-      dispatch(getAllArticlesCount())
+    if(!synching) {
+      if(activeTab !== 'all news') {
+        dispatch(getArticlesByTopic(activeTab))
+        dispatch(getTopicArticlesCount(activeTab))
+      } else {
+        dispatch(getAllArticles())
+        dispatch(getAllArticlesCount())
+      }
     }
-  }, [dispatch, params])
+  }, [dispatch, synching, activeTab])
 
   const observer = useRef()
   const lastArticleRef = useCallback(node => {
@@ -44,8 +44,8 @@ function ArticleList() {
       const [entry] = entries
 
       if(entry.isIntersecting && count[activeTab] !== articles[activeTab].length) {
-        if(params.topic)
-          dispatch(getArticlesByTopic(params.topic))
+        if(activeTab !== 'all news')
+          dispatch(getArticlesByTopic(activeTab))
         else
           dispatch(getAllArticles())
 
@@ -54,12 +54,12 @@ function ArticleList() {
     })
 
     if(node) observer.current.observe(node)
-  }, [dispatch, params, articles, count, activeTab])
+  }, [dispatch, articles, count, activeTab])
 
   return (
     <Self>
       {
-        articles?.[activeTab] && articles[activeTab].map(
+        !synching && articles?.[activeTab] && articles[activeTab].map(
           (article, id) => (
             <ArticleModal
               key={article.id}
@@ -83,7 +83,7 @@ function ArticleList() {
       }
 
       {
-        count[activeTab] !== articles?.[activeTab]?.length && [...new Array(10).keys()].map((arg, id) =>
+        (synching || count[activeTab] !== articles?.[activeTab]?.length) && [...new Array(10).keys()].map((arg, id) =>
           <ArticleListItemSkeleton key={id} />
         )
       }

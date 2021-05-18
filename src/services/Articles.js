@@ -7,7 +7,7 @@ class Articles {
 
   static topics = ['science', 'technology']
 
-  static async synchronize() {
+  static async sync() {
     await Promise.all(
       Articles.topics.map(
         async topic => {
@@ -28,8 +28,6 @@ class Articles {
         }
       )
     )
-
-    console.log('Synchronized!')
   }
 
   static async getAll(offset = 0) {
@@ -44,7 +42,7 @@ class Articles {
     return allArticles
   }
 
-  static async getBy(topic, offset = 0) {
+  static async getTopic(topic, offset = 0) {
     const topicArticles = await db.articles
       .where('topic')
       .equals(topic)

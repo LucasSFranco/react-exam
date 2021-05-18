@@ -1,8 +1,8 @@
 import Dexie from 'dexie'
 
-const db = new Dexie('news-portal')
+const db = new Dexie('react-news-portal')
 
-db.version(5).stores({
+db.version(1).stores({
   articles: 'id, topic, uri'
 })
 

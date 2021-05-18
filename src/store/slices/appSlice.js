@@ -2,6 +2,12 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
 import Articles from '@/services/Articles'
 
+export const sync = createAsyncThunk('app/sync',
+  async () => {
+    await Articles.sync()
+  }
+)
+
 export const getAllArticlesCount = createAsyncThunk('app/getAllArticlesCount',
   async () => {
     const allArticlesCount = await Articles.getAllCount()
@@ -32,7 +38,7 @@ export const getArticlesByTopic = createAsyncThunk('app/getArticlesByTopic',
   async (topic, { getState }) => {
     const { articles } = getState().app
 
-    const topicArticles = await Articles.getBy(topic, articles?.[topic]?.length || 0)
+    const topicArticles = await Articles.getTopic(topic, articles?.[topic]?.length || 0)
 
     return { [topic]: [...(articles?.[topic] || []), ...topicArticles] }
   }
@@ -41,10 +47,11 @@ export const getArticlesByTopic = createAsyncThunk('app/getArticlesByTopic',
 export const appSlice = createSlice({
   name: 'app',
   initialState: {
-    tabs: ['all news', ...Articles.topics],
     activeTab: 'all news',
     articles: {},
     count: {},
+    synching: false,
+    tabs: ['all news', ...Articles.topics],
   },
   reducers: {
     changeActiveTab: (state, action) => {
@@ -52,6 +59,12 @@ export const appSlice = createSlice({
     },
   },
   extraReducers: {
+    [sync.pending]: (state) => {
+      state.synching = true
+    },
+    [sync.fulfilled]: (state) => {
+      state.synching = false
+    },
     [getAllArticles.fulfilled]: (state, action) => {
       state.articles = { ...state.articles, ...action.payload }
     },
@@ -64,14 +77,15 @@ export const appSlice = createSlice({
     [getTopicArticlesCount.fulfilled]: (state, action) => {
       state.count = { ...state.count, ...action.payload }
     },
-  }
+  },
 })
 
 export const { changeActiveTab } = appSlice.actions
 
-export const selectCount = state => state.app.count
-export const selectTabs = state => state.app.tabs
 export const selectActiveTab = state => state.app.activeTab
 export const selectArticles = state => state.app.articles
+export const selectCount = state => state.app.count
+export const selectSynching = state => state.app.synching
+export const selectTabs = state => state.app.tabs
 
 export default appSlice.reducer

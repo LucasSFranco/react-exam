@@ -4,26 +4,24 @@ import uniqid from 'uniqid'
 class Article {
 
   constructor(data) {
-
-    const largeThumb = data.multimedia instanceof Array && data.multimedia.find(
-      image => image.format === 'mediumThreeByTwo210'
-    )
-
-    const fullImage = data.multimedia instanceof Array && data.multimedia.find(
-      image => image.format === 'superJumbo'
-    )
-
     this.id = data.id ?? uniqid(data.published_date)
-    this.uri = data.uri
-    this.topic = data.topic
+    this.abstract = data.abstract
+    this.byLine = data.byLine ?? data.byline
+    this.kicker = data.kicker
+    this.publishedDate = data.publishedDate ?? data.published_date
     this.section = data.section
     this.subsection = data.subsection
-    this.kicker = data.kicker
     this.title = data.title
-    this.abstract = data.abstract
+    this.topic = data.topic
+    this.uri = data.uri
     this.url = data.url
-    this.byLine = data.byLine ?? data.byline
-    this.publishedDate = data.publishedDate ?? data.published_date
+
+    const largeThumb = data.multimedia instanceof Array &&
+      data.multimedia.find(({ format }) => format === 'mediumThreeByTwo210')
+
+    const fullImage = data.multimedia instanceof Array &&
+      data.multimedia.find(({ format }) => format === 'superJumbo')
+
     this.multimedia = {
       fullImage: {
         url: data.multimedia?.fullImage?.url ?? fullImage.url,

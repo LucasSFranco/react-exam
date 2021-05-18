@@ -23,7 +23,7 @@ function Navbar() {
       dispatch(changeActiveTab(params.topic))
     else
       dispatch(changeActiveTab('all news'))
-  }, [])
+  })
 
   return (
     <Self className="navbar">

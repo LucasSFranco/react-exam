@@ -1,11 +1,10 @@
 import { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Articles from '@/services/Articles'
-
-import News from '@/views/News'
-
+import { sync } from '@/store/slices/appSlice'
 import GlobalStyle from '@/styles/GlobalStyle'
+import News from '@/views/News'
 
 export const routes = {
   news: {
@@ -15,10 +14,11 @@ export const routes = {
 }
 
 function Router() {
+  const dispatch = useDispatch()
 
   useEffect(() => {
-    Articles.synchronize()
-  }, [])
+    dispatch(sync())
+  })
 
   return (
     <BrowserRouter>
