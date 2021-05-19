@@ -4,9 +4,9 @@ import { generatePath, useParams } from 'react-router'
 import { Link as RouterLink } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
-import Container from '@/components/atoms/Container'
-import { changeActiveTab, selectActiveTab, selectTabs } from '@/store/slices/newsSlice'
-import { routes } from '@/views/Router'
+import Container from '../atoms/Container'
+import { changeActiveTab, selectActiveTab, selectTabs } from '../../store/slices/newsSlice'
+import { routes } from '../../views/Router'
 
 function Navbar() {
   const dispatch = useDispatch()

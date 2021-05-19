@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import ArticleListItem from '@/components/molecules/ArticleListItem'
-import ArticleListItemSkeleton from '@/components/molecules/ArticleListItemSkeleton'
-import ArticleModal from '@/components/molecules/ArticleModal'
+import ArticleListItem from '../molecules/ArticleListItem'
+import ArticleListItemSkeleton from '../molecules/ArticleListItemSkeleton'
+import ArticleModal from '../molecules/ArticleModal'
 import {
   getAllArticles,
   getAllArticlesCount,
@@ -13,7 +13,7 @@ import {
   selectArticles,
   selectCount,
   selectSynching,
-} from '@/store/slices/newsSlice'
+} from '../../store/slices/newsSlice'
 
 import styled from 'styled-components'
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { AngleDoubleUp } from '@/assets/icons'
+import { AngleDoubleUp } from '../../assets/icons'
 
 function ButtonReturnToTop() {
 

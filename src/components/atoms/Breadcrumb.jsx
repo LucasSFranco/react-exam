@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { ChevronRight } from '@/assets/icons'
+import { ChevronRight } from '../../assets/icons'
 
 function Breadcrumb({ items, forwardRef, ...otherProps }) {
   return (

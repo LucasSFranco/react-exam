@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article List Item properly renders article data 1`] = `
+<div
+  class="sc-bdnxRM leLQZM article list__item"
+  data-testid="article-list-item"
+>
+  <div
+    class="accessory"
+  >
+    <time>
+      May 19, 2021
+    </time>
+  </div>
+  <div
+    class="main"
+  >
+    <figure>
+      <picture
+        style="padding-top: 66.650390625%;"
+      >
+        <source
+          media="(min-width: 768px)"
+          srcset="https://static01.nyt.com/images/2021/05/19/world/19china-mars01/merlin_187780170_e6f955da-f88e-4dfa-9513-845ef968ceda-mediumThreeByTwo210.jpg"
+        />
+        <img
+          alt="Coverage of the Mars landing on a screen in Beijing on Saturday. The first images from the lander were released on Wednesday."
+          src="https://static01.nyt.com/images/2021/05/19/world/19china-mars01/merlin_187780170_e6f955da-f88e-4dfa-9513-845ef968ceda-superJumbo.jpg"
+        />
+      </picture>
+      <figcaption>
+        Mark Schiefelbein/Associated Press
+      </figcaption>
+    </figure>
+    <h6 />
+    <h3>
+      China Releases First Photos From Its Mars Lander
+    </h3>
+    <p>
+      The country’s space agency said that the craft’s components, and those of the rover it would soon release, had “deployed in place normally.”
+    </p>
+    <span>
+      By Steven Lee Myers
+    </span>
+  </div>
+</div>
+`;

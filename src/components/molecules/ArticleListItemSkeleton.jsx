@@ -11,33 +11,34 @@ function ArticleListItem() {
   const generateImage = () =>
     <span
       className="image"
+      data-testid="image"
       style={{ paddingTop: `${getRandomInteger(60, 110)}%` }}
     />
 
   const generateKicker = () =>
     getRandomInteger(1, 5) === 5 && getRandomRange(4, 7).map(id =>
-      <span key={id} style={{ width: getRandomInteger(30, 70) }} />
+      <span key={id} data-testid="kicker" style={{ width: getRandomInteger(30, 70) }} />
     )
 
   const generateTitle = () =>
     getRandomRange(7, 12).map(id =>
-      <span key={id} style={{ width: getRandomInteger(30, 80) }} />
+      <span key={id} data-testid="title" style={{ width: getRandomInteger(30, 80) }} />
     )
 
   const generateAbstract = () =>
     getRandomRange(50, 70).map(id =>
-      <span key={id} style={{ width: getRandomInteger(20, 80) }} />
+      <span key={id} data-testid="abstract" style={{ width: getRandomInteger(20, 80) }} />
     )
 
   const generateByLine = () =>
     getRandomRange(7, 13).map(id =>
-      <span key={id} style={{ width: getRandomInteger(10, 50) }} />
+      <span key={id} data-testid="byLine" style={{ width: getRandomInteger(10, 50) }} />
     )
 
   return (
     <Self className="article list__item--skeleton">
       <div className="accessory">
-        <span className="published-date" />
+        <span className="published-date" data-testid="publishedDate" />
       </div>
       <div className="main">
         { generateImage() }

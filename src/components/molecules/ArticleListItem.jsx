@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import Article from '@/models/Article'
+import Article from '../../models/Article'
 
 function ArticleListItem({ article, forwardRef, ...otherProps }) {
   const formattedArticle = new Article(article).format('LL')
@@ -12,6 +12,7 @@ function ArticleListItem({ article, forwardRef, ...otherProps }) {
   return (
     <Self
       className="article list__item"
+      data-testid="article-list-item"
       ref={forwardRef}
       {...otherProps}
     >

@@ -1,37 +1,83 @@
-import React from "react"
+import React from 'react'
+import { Provider } from 'react-redux'
 import { render, screen } from '@testing-library/react'
-import ArticleList from './ArticleList'
 
-// jest.mock('./api')
+import ArticleList from './ArticleList'
+import Articles from '../../services/Articles'
+import store from '../../store'
+import { changeActiveTab } from "../../store/slices/newsSlice"
+import articles from '../../../tests/fixtures/articles.json'
+
+jest.mock('../../services/Articles')
 
 describe('Article List', () => {
-  it('properly renders articles', async () => {
-    render(
-      <ArticleList />
+
+  beforeEach(async () => {
+    const mockIntersectionObserver = jest.fn()
+
+    mockIntersectionObserver.mockReturnValue({
+      observe: () => null,
+      disconnect: () => null,
+    })
+
+    window.IntersectionObserver = mockIntersectionObserver
+  })
+
+  it('properly renders all articles', async () => {
+    Articles.getAll.mockResolvedValue(articles)
+    Articles.getAllCount.mockResolvedValue(articles.length)
+
+    const { container } = render(
+      <Provider store={store}>
+        <ArticleList />
+      </Provider>
     )
 
-    // api.listaTransacoes.mockResolvedValue([
-    //   {
-    //     "valor": '10',
-    //     "transacao": "saque",
-    //     "data": "10/08/2020",
-    //     "id": 1
-    //   },
-    //   {
-    //     "valor": '20',
-    //     "transacao": "deposito",
-    //     "data": "26/09/2020",
-    //     "id": 2
-    //   },
-    // ])
+    expect(await screen.findAllByTestId('article-list-item'))
+      .toHaveLength(articles.length)
 
-    // render(<App />)
-
-    // expect(await screen.findByText('saque')).toBeInTheDocument()
-
-    // expect(screen.getByTestId('transacoes').children.length).toBe(2)
-
-    expect(true).toBe(true)
-
+    expect(container.firstChild).toMatchSnapshot()
   })
+
+  it('properly renders topic articles', async () => {
+    const technologyArticles = articles
+      .filter(article => article.topic === 'technology')
+
+    Articles.getTopic.mockResolvedValue(technologyArticles)
+    Articles.getTopicCount.mockResolvedValue(technologyArticles.length)
+
+    store.dispatch(changeActiveTab('technology'))
+
+    const { container } = render(
+      <Provider store={store}>
+        <ArticleList />
+      </Provider>
+    )
+
+    expect(await screen.findAllByTestId('article-list-item'))
+      .toHaveLength(technologyArticles.length)
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
+
+  // it('properly renders topic articles', async () => {
+  //   const technologyArticles = articles
+  //     .filter(article => article.topic === 'technology')
+
+  //   Articles.getTopic.mockResolvedValue(technologyArticles)
+  //   Articles.getTopicCount.mockResolvedValue(technologyArticles.length)
+
+  //   store.dispatch(changeActiveTab('technology'))
+
+  //   const { container } = render(
+  //     <Provider store={store}>
+  //       <ArticleList />
+  //     </Provider>
+  //   )
+
+  //   expect(await screen.findAllByTestId('article-list-item'))
+  //     .toHaveLength(technologyArticles.length)
+
+  //   expect(container.firstChild).toMatchSnapshot()
+  // })
 })

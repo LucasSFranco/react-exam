@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-import { ExternalLinkAlt } from '@/assets/icons'
-import Modal from '@/components/atoms/Modal'
-import Breadcrumb from '@/components/atoms/Breadcrumb'
-import Article from '@/models/Article'
+import Modal from '../atoms/Modal'
+import Breadcrumb from '../atoms/Breadcrumb'
+import { ExternalLinkAlt } from '../../assets/icons'
+import Article from '../../models/Article'
 
 function ArticleModal({ article, children }) {
 
@@ -16,7 +16,10 @@ function ArticleModal({ article, children }) {
   return (
     <Modal
       content={
-        <Content className="article">
+        <Content
+          className="article"
+          data-testid="article-modal"
+        >
           <div className="header">
             <Breadcrumb
               items={[

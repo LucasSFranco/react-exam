@@ -2,7 +2,7 @@ import { cloneElement, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import styled from 'styled-components'
 
-import { Times } from '@/assets/icons'
+import { Times } from '../../assets/icons'
 
 function Modal({ content, children, ...otherProps }) {
   const modalRef = useRef()

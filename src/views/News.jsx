@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-import Container from '@/components/atoms/Container'
-import ButtonReturnToTop from '@/components/molecules/ButtonReturnToTop'
-import Header from '@/components/molecules/Header'
-import ArticleList from '@/components/organisms/ArticleList'
-import Navbar from '@/components/organisms/Navbar'
+import Container from '../components/atoms/Container'
+import ButtonReturnToTop from '../components/molecules/ButtonReturnToTop'
+import Header from '../components/molecules/Header'
+import ArticleList from '../components/organisms/ArticleList'
+import Navbar from '../components/organisms/Navbar'
 
 function News() {
   return (

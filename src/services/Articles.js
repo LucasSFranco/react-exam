@@ -1,7 +1,6 @@
-import api from '@/services/_api'
-import db from '@/services/_dexie'
-
-import Article from '@/models/Article'
+import api from './_api'
+import db from './_dexie'
+import Article from '../models/Article'
 
 class Articles {
 
@@ -19,8 +18,6 @@ class Articles {
           await Promise.all(
             articles.map(async article => {
               const alreadyExists = await db.articles.get({ uri: article.uri })
-
-              console.log(article, alreadyExists)
 
               if(alreadyExists) return
 
@@ -40,6 +37,8 @@ class Articles {
       .toArray()
 
     // await new Promise((resolve) => setTimeout(() => {resolve()}, 1000))
+
+    console.log(allArticles)
 
     return allArticles
   }

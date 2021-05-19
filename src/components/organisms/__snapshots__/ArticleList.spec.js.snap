@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article List properly renders all articles 1`] = `
+<section
+  class="sc-jSFjdj bOIGTT article list"
+>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 19, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 66.650390625%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/19/world/19china-mars01/merlin_187780170_e6f955da-f88e-4dfa-9513-845ef968ceda-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="Coverage of the Mars landing on a screen in Beijing on Saturday. The first images from the lander were released on Wednesday."
+            src="https://static01.nyt.com/images/2021/05/19/world/19china-mars01/merlin_187780170_e6f955da-f88e-4dfa-9513-845ef968ceda-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Mark Schiefelbein/Associated Press
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        China Releases First Photos From Its Mars Lander
+      </h3>
+      <p>
+        The country’s space agency said that the craft’s components, and those of the rover it would soon release, had “deployed in place normally.”
+      </p>
+      <span>
+        By Steven Lee Myers
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 19, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 66.650390625%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="An Israeli man at a restaurant that was attacked last week in the city of Bat Yam."
+            src="https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Gil Cohen-Magen/Agence France-Presse — Getty Images
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        Mob Violence Against Palestinians in Israel Is Fueled by Groups on WhatsApp
+      </h3>
+      <p>
+        Jewish extremists have formed more than 100 new groups on the Facebook-owned encrypted messaging app in recent days to target attacks.
+      </p>
+      <span>
+        By Sheera Frenkel
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 18, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 69.384765625%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="Alexander Graham Bell, with the first telephone, circa 1876."
+            src="https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Ullstein Bild, via Getty Images
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        After Media Detour, AT&T Confronts Old Problems
+      </h3>
+      <p>
+        Following its spinoff of WarnerMedia, AT&T is back to primarily being a wireless company, with all of the challenges that entails.
+      </p>
+      <span>
+        By Edmund Lee and Lauren Hirsch
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 18, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 66.650390625%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/18/us/politics/18dc-china-bill-1/merlin_185149560_9f9e2f5e-7b01-4a88-a4be-67dc94324196-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="A semiconductor factory in Nantong, China, in March. The country is the host of a critical supply chains including semiconductors."
+            src="https://static01.nyt.com/images/2021/05/18/us/politics/18dc-china-bill-1/merlin_185149560_9f9e2f5e-7b01-4a88-a4be-67dc94324196-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Agence France-Presse — Getty Images
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        Senate Weighs Investing $120 Billion in Science to Counter China
+      </h3>
+      <p>
+        The legislation has drawn bipartisan support amid the coronavirus pandemic as Democrats and Republicans have become increasingly concerned about Beijing’s supply chain dominance.
+      </p>
+      <span>
+        By Catie Edmondson
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 18, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 66.552734375%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="Collecting plastic at a landfill on Sulawesi in Indonesia. Half the world&rsquo;s single-use plastic is made by 20 big companies, researchers said."
+            src="https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Basri Marzuki/NurPhoto, via Getty Images
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        Here Is Who’s Behind the Global Surge in Single-Use Plastic
+      </h3>
+      <p>
+        A new report shows that a surprisingly small number of big companies and banks are behind the manufacturing and financing of much of the world’s single-use plastic.
+      </p>
+      <span>
+        By Michael Corkery and Somini Sengupta
+      </span>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Article List properly renders topic articles 1`] = `
+<section
+  class="sc-jSFjdj bOIGTT article list"
+>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 19, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 66.650390625%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="An Israeli man at a restaurant that was attacked last week in the city of Bat Yam."
+            src="https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Gil Cohen-Magen/Agence France-Presse — Getty Images
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        Mob Violence Against Palestinians in Israel Is Fueled by Groups on WhatsApp
+      </h3>
+      <p>
+        Jewish extremists have formed more than 100 new groups on the Facebook-owned encrypted messaging app in recent days to target attacks.
+      </p>
+      <span>
+        By Sheera Frenkel
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-bdnxRM leLQZM article list__item"
+    data-testid="article-list-item"
+  >
+    <div
+      class="accessory"
+    >
+      <time>
+        May 18, 2021
+      </time>
+    </div>
+    <div
+      class="main"
+    >
+      <figure>
+        <picture
+          style="padding-top: 69.384765625%;"
+        >
+          <source
+            media="(min-width: 768px)"
+            srcset="https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-mediumThreeByTwo210.jpg"
+          />
+          <img
+            alt="Alexander Graham Bell, with the first telephone, circa 1876."
+            src="https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-superJumbo.jpg"
+          />
+        </picture>
+        <figcaption>
+          Ullstein Bild, via Getty Images
+        </figcaption>
+      </figure>
+      <h6 />
+      <h3>
+        After Media Detour, AT&T Confronts Old Problems
+      </h3>
+      <p>
+        Following its spinoff of WarnerMedia, AT&T is back to primarily being a wireless company, with all of the challenges that entails.
+      </p>
+      <span>
+        By Edmund Lee and Lauren Hirsch
+      </span>
+    </div>
+  </div>
+</section>
+`;
