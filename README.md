@@ -25,7 +25,7 @@ Siga os passos abaixo:
 $ yarn
 
 # inicie o projeto
-$ yarn serve
+$ yarn start
 
 # ou
 
@@ -33,6 +33,6 @@ $ yarn serve
 $ npm install
 
 # inicie o projeto
-$ npm run serve
+$ npm run start
 ```
 
