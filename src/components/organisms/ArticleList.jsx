@@ -24,8 +24,13 @@ function ArticleList() {
   const count = useSelector(selectCount)
   const synching = useSelector(selectSynching)
 
+  const loader = useRef(
+    [...new Array(10).keys()]
+      .map(key => <ArticleListItemSkeleton key={key} />)
+  )
+
   useEffect(() => {
-    if(!synching) {
+    if(!synching && activeTab && !articles[activeTab]) {
       if(activeTab !== 'all news') {
         dispatch(getTopicArticles(activeTab))
         dispatch(getTopicArticlesCount(activeTab))
@@ -34,7 +39,7 @@ function ArticleList() {
         dispatch(getAllArticlesCount())
       }
     }
-  }, [activeTab, dispatch, synching])
+  }, [activeTab, articles, dispatch, synching])
 
   const observer = useRef()
   const lastArticleRef = useCallback(node => {
@@ -82,11 +87,7 @@ function ArticleList() {
       }
 
       {
-        (
-          synching || count[activeTab] !== articles[activeTab]?.length
-        ) && [...new Array(10).keys()].map(key =>
-          <ArticleListItemSkeleton key={key} />
-        )
+        count[activeTab] !== (articles[activeTab]?.length || []) && loader.current
       }
 
     </Self>

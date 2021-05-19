@@ -5,12 +5,9 @@ import ArticleModal from './ArticleModal'
 import articles from '../../../tests/fixtures/articles.json'
 
 jest.mock("../atoms/Modal", () => {
-  return {
-    Modal: ({ content }) => {
-      return <>{content}</>;
-    },
-  };
-});
+  return ({ content, children }) =>
+    <div>{content} {children}</div>
+})
 
 describe('Article Modal', () => {
 
@@ -18,7 +15,7 @@ describe('Article Modal', () => {
 
     const { container } = render(
       <ArticleModal article={articles[0]}>
-        <button />
+        <button>Trigger</button>
       </ArticleModal>
     )
 

@@ -35,8 +35,6 @@ describe('Article List', () => {
 
     expect(await screen.findAllByTestId('article-list-item'))
       .toHaveLength(articles.length)
-
-    expect(container.firstChild).toMatchSnapshot()
   })
 
   it('properly renders topic articles', async () => {
@@ -56,8 +54,6 @@ describe('Article List', () => {
 
     expect(await screen.findAllByTestId('article-list-item'))
       .toHaveLength(technologyArticles.length)
-
-    expect(container.firstChild).toMatchSnapshot()
   })
 
   // it('properly renders topic articles', async () => {

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header properly renders 1`] = `
+<header
+  class="sc-bdnxRM ebltpS header"
+>
+  <a
+    href="https://www.nytimes.com/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="The New York Times"
+      src="logo.svg"
+    />
+  </a>
+</header>
+`;

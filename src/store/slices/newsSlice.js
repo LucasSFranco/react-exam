@@ -51,7 +51,7 @@ export const sync = createAsyncThunk('news/sync',
 export const newsSlice = createSlice({
   name: 'news',
   initialState: {
-    activeTab: 'all news',
+    activeTab: null,
     articles: {},
     count: {},
     synching: false,
@@ -66,11 +66,11 @@ export const newsSlice = createSlice({
     [getAllArticles.fulfilled]: (state, action) => {
       state.articles = { ...state.articles, ...action.payload }
     },
-    [getTopicArticles.fulfilled]: (state, action) => {
-      state.articles = { ...state.articles, ...action.payload }
-    },
     [getAllArticlesCount.fulfilled]: (state, action) => {
       state.count = { ...state.count, ...action.payload }
+    },
+    [getTopicArticles.fulfilled]: (state, action) => {
+      state.articles = { ...state.articles, ...action.payload }
     },
     [getTopicArticlesCount.fulfilled]: (state, action) => {
       state.count = { ...state.count, ...action.payload }
