@@ -2,48 +2,40 @@ import styled from 'styled-components'
 
 function ArticleListItem() {
 
-  const generateRandomInteger = (from, to) => {
-    return Math.round(
-      Math.random() * (to - from)
-    ) + from
-  }
+  const getRandomInteger = (from, to) =>
+    Math.round(Math.random() * (to - from)) + from
 
-  const generateImage = () => {
-    return <span className="image" style={{ paddingTop: `${generateRandomInteger(60, 110)}%` }} />
-  }
+  const getRandomRange = (from, to) =>
+    [...new Array(getRandomInteger(from, to)).keys()]
 
-  const generateKicker = () => {
-    if(generateRandomInteger(1, 5) !== 5) return
+  const generateImage = () =>
+    <span
+      className="image"
+      style={{ paddingTop: `${getRandomInteger(60, 110)}%` }}
+    />
 
-    return [...new Array(generateRandomInteger(4, 7)).keys()]
-      .map((arg, id) =>
-        <span key={arg + id} style={{ width: generateRandomInteger(30, 70) }} />
-      )
-  }
+  const generateKicker = () =>
+    getRandomInteger(1, 5) === 5 && getRandomRange(4, 7).map(id =>
+      <span key={id} style={{ width: getRandomInteger(30, 70) }} />
+    )
 
-  const generateTitle = () => {
-    return [...new Array(generateRandomInteger(7, 12)).keys()]
-      .map((arg, id) =>
-        <span key={arg + id} style={{ width: generateRandomInteger(30, 80) }} />
-      )
-  }
+  const generateTitle = () =>
+    getRandomRange(7, 12).map(id =>
+      <span key={id} style={{ width: getRandomInteger(30, 80) }} />
+    )
 
-  const generateAbstract = () => {
-    return [...new Array(generateRandomInteger(50, 70)).keys()]
-      .map((arg, id) =>
-        <span key={arg + id} style={{ width: generateRandomInteger(20, 80) }} />
-      )
-  }
+  const generateAbstract = () =>
+    getRandomRange(50, 70).map(id =>
+      <span key={id} style={{ width: getRandomInteger(20, 80) }} />
+    )
 
-  const generateByLine = () => {
-    return [...new Array(generateRandomInteger(7, 13)).keys()]
-      .map((arg, id) =>
-        <span key={arg + id} style={{ width: generateRandomInteger(10, 50) }} />
-      )
-  }
+  const generateByLine = () =>
+    getRandomRange(7, 13).map(id =>
+      <span key={id} style={{ width: getRandomInteger(10, 50) }} />
+    )
 
   return (
-    <Self className="article-list__item--skeleton">
+    <Self className="article list__item--skeleton">
       <div className="accessory">
         <span className="published-date" />
       </div>

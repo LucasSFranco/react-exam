@@ -1,20 +1,19 @@
 import { useCallback, useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useParams } from 'react-router'
 
-import ArticleListItemSkeleton from '@/views/content/ArticleListItemSkeleton'
-import ArticleListItem from '@/views/content/ArticleListItem'
-import ArticleModal from '@/views/content/ArticleModal'
+import ArticleListItem from '@/components/molecules/ArticleListItem'
+import ArticleListItemSkeleton from '@/components/molecules/ArticleListItemSkeleton'
+import ArticleModal from '@/components/molecules/ArticleModal'
 import {
   getAllArticles,
   getAllArticlesCount,
-  getArticlesByTopic,
+  getTopicArticles,
   getTopicArticlesCount,
   selectActiveTab,
   selectArticles,
   selectCount,
   selectSynching,
-} from '@/store/slices/appSlice'
+} from '@/store/slices/newsSlice'
 
 import styled from 'styled-components'
 
@@ -28,24 +27,23 @@ function ArticleList() {
   useEffect(() => {
     if(!synching) {
       if(activeTab !== 'all news') {
-        dispatch(getArticlesByTopic(activeTab))
+        dispatch(getTopicArticles(activeTab))
         dispatch(getTopicArticlesCount(activeTab))
       } else {
         dispatch(getAllArticles())
         dispatch(getAllArticlesCount())
       }
     }
-  }, [dispatch, synching, activeTab])
+  }, [activeTab, dispatch, synching])
 
   const observer = useRef()
   const lastArticleRef = useCallback(node => {
-
     observer.current = new IntersectionObserver(entries => {
       const [entry] = entries
 
       if(entry.isIntersecting && count[activeTab] !== articles[activeTab].length) {
         if(activeTab !== 'all news')
-          dispatch(getArticlesByTopic(activeTab))
+          dispatch(getTopicArticles(activeTab))
         else
           dispatch(getAllArticles())
 
@@ -54,19 +52,20 @@ function ArticleList() {
     })
 
     if(node) observer.current.observe(node)
-  }, [dispatch, articles, count, activeTab])
+
+  }, [activeTab, articles, count, dispatch])
 
   return (
-    <Self>
+    <Self className="article list">
       {
-        !synching && articles?.[activeTab] && articles[activeTab].map(
-          (article, id) => (
+        !synching && (articles[activeTab] || []).map(
+          (article, pos) => (
             <ArticleModal
               key={article.id}
               article={article}
             >
               {
-                id + 1 === articles[activeTab].length ? (
+                pos + 1 === articles[activeTab].length ? (
                   <ArticleListItem
                     forwardRef={lastArticleRef}
                     article={article}
@@ -83,8 +82,10 @@ function ArticleList() {
       }
 
       {
-        (synching || count[activeTab] !== articles?.[activeTab]?.length) && [...new Array(10).keys()].map((arg, id) =>
-          <ArticleListItemSkeleton key={id} />
+        (
+          synching || count[activeTab] !== articles[activeTab]?.length
+        ) && [...new Array(10).keys()].map(key =>
+          <ArticleListItemSkeleton key={key} />
         )
       }
 

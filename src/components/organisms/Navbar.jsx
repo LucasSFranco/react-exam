@@ -2,21 +2,17 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { generatePath, useParams } from 'react-router'
 import { Link as RouterLink } from 'react-router-dom'
-
-import { routes } from '@/views/Router'
-
-import { changeActiveTab, selectActiveTab, selectTabs } from '@/store/slices/appSlice'
-
-import Container from '@/components/Container'
-
 import styled, { css } from 'styled-components'
 
-function Navbar() {
-  const params = useParams()
-  const dispatch = useDispatch()
+import Container from '@/components/atoms/Container'
+import { changeActiveTab, selectActiveTab, selectTabs } from '@/store/slices/newsSlice'
+import { routes } from '@/views/Router'
 
-  const tabs = useSelector(selectTabs)
+function Navbar() {
+  const dispatch = useDispatch()
   const activeTab = useSelector(selectActiveTab)
+  const tabs = useSelector(selectTabs)
+  const params = useParams()
 
   useEffect(() => {
     if(params.topic)
@@ -36,19 +32,15 @@ function Navbar() {
               selected={tab === activeTab}
               to={
                 tab === 'all news' ? (
-                  generatePath(routes.news.path, {
-                    type: null,
-                    topic: null,
-                  })
+                  generatePath(routes.news.path, { type: null, topic: null })
                 ) : (
-                  generatePath(routes.news.path, {
-                    type: 'topic',
-                    topic: tab,
-                  })
+                  generatePath(routes.news.path, { type: 'topic', topic: tab })
                 )
               }
               onClick={() => dispatch(changeActiveTab(tab))}
-            >{tab}</Link>
+            >
+              {tab}
+            </Link>
           )
         }
       </nav>
@@ -92,9 +84,9 @@ const Self = styled(Container)`
       text-transform: uppercase;
 
       & + ${Link} {
+        border-left: 1px solid var(--accent-secondary);
         margin-left: .5rem;
         padding-left: .5rem;
-        border-left: 1px solid var(--accent-secondary);
       }
 
       &:hover {

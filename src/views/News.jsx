@@ -1,11 +1,10 @@
-import Container from '@/components/Container'
-
-import ArticleList from '@/views/content/ArticleList'
-import Navbar from '@/views/content/Navbar'
-import Header from '@/views/content/Header'
-import ButtonReturnToTop from '@/views/content/ButtonReturnToTop'
-
 import styled from 'styled-components'
+
+import Container from '@/components/atoms/Container'
+import ButtonReturnToTop from '@/components/molecules/ButtonReturnToTop'
+import Header from '@/components/molecules/Header'
+import ArticleList from '@/components/organisms/ArticleList'
+import Navbar from '@/components/organisms/Navbar'
 
 function News() {
   return (
@@ -33,7 +32,6 @@ const Self = styled.main`
 
   & > .content {
     flex: 1 1 auto;
-
     position: relative;
 
     & > .scrollbox {
@@ -49,13 +47,13 @@ const Self = styled.main`
 
       &::-webkit-scrollbar {
         width: 16px;
-        width: 16px;
+        height: 16px;
       }
 
       &::-webkit-scrollbar-thumb {
-        border: 4px solid transparent;
         background: var(--accent-secondary);
         background-clip: padding-box;
+        border: 4px solid transparent;
       }
     }
   }

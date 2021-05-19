@@ -29,7 +29,7 @@ function Modal({ content, children, ...otherProps }) {
             <Self
               className="modal"
               ref={modalRef}
-              onClick={({ target }) => target === modalRef.current && close()}
+              onMouseDown={({ target }) => target === modalRef.current && close()}
               {...otherProps}
             >
               <div className="modal__content">
@@ -43,7 +43,7 @@ function Modal({ content, children, ...otherProps }) {
               </div>
             </Self>
           ),
-          document.querySelector('body')
+          document.body
         )
       }
     </>

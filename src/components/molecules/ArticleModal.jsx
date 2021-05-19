@@ -1,31 +1,35 @@
-import Article from '@/models/Article'
-
-import Modal from '@/components/Modal'
-import Breadcrumb from '@/components/Breadcrumb'
-
 import styled from 'styled-components'
 
 import { ExternalLinkAlt } from '@/assets/icons'
+import Modal from '@/components/atoms/Modal'
+import Breadcrumb from '@/components/atoms/Breadcrumb'
+import Article from '@/models/Article'
 
 function ArticleModal({ article, children }) {
 
   const formattedArticle = new Article(article).format()
 
+  const aspectRatio =
+    formattedArticle.multimedia.fullImage.height /
+    formattedArticle.multimedia.fullImage.width
+
   return (
     <Modal
       content={
-        <Content>
+        <Content className="article">
           <div className="header">
             <Breadcrumb
               items={[
-                formattedArticle.topic, formattedArticle.section, formattedArticle.subsection
+                formattedArticle.topic,
+                formattedArticle.section,
+                formattedArticle.subsection,
               ]}
             />
           </div>
           <div className="body">
             <figure>
               <picture
-                style={{ paddingTop: `${formattedArticle.multimedia.fullImage.height / formattedArticle.multimedia.fullImage.width * 100}%` }}
+                style={{ paddingTop: `${aspectRatio * 100}%` }}
               >
                 <img
                   src={formattedArticle.multimedia.fullImage.url}
@@ -217,10 +221,10 @@ const Content = styled.section`
       background: var(--button-normal);
       color: var(--button-color);
       cursor: pointer;
-      padding: .625rem 1rem;
       font-family: 'Roboto', sans-serif;
       font-size: .875rem;
       font-weight: 700;
+      padding: .625rem 1rem;
 
       transition: 100ms background-color;
 

@@ -10,7 +10,7 @@ function ButtonReturnToTop() {
 
   return (
     <Self
-      className="button-return-to-top"
+      className="button return-to-top"
       onClick={returnToTop}
     >
       <AngleDoubleUp />
@@ -34,8 +34,8 @@ const Self = styled.button`
   transition: 100ms background-color;
 
   position: absolute;
-  bottom: 1.5rem;
   left: 1.5rem;
+  bottom: 1.5rem;
 
   &:hover {
     background: var(--button-hover);

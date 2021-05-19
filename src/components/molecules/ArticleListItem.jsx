@@ -1,14 +1,18 @@
-import Article from '@/models/Article'
-
 import styled from 'styled-components'
 
-function ArticleListItem({ forwardRef, article, ...otherProps }) {
+import Article from '@/models/Article'
+
+function ArticleListItem({ article, forwardRef, ...otherProps }) {
   const formattedArticle = new Article(article).format('LL')
+
+  const aspectRatio =
+    formattedArticle.multimedia.fullImage.height /
+    formattedArticle.multimedia.fullImage.width
 
   return (
     <Self
+      className="article list__item"
       ref={forwardRef}
-      className="article-list__item"
       {...otherProps}
     >
       <div className="accessory">
@@ -16,12 +20,10 @@ function ArticleListItem({ forwardRef, article, ...otherProps }) {
       </div>
       <div className="main">
         <figure>
-          <picture
-            style={{ paddingTop: `${formattedArticle.multimedia.fullImage.height / formattedArticle.multimedia.fullImage.width * 100}%` }}
-          >
+          <picture style={{ paddingTop: `${aspectRatio * 100}%` }}>
             <source
-              srcSet={formattedArticle.multimedia.largeThumb.url}
               media="(min-width: 768px)"
+              srcSet={formattedArticle.multimedia.largeThumb.url}
             />
             <img
               src={formattedArticle.multimedia.fullImage.url}
@@ -51,9 +53,8 @@ const Self = styled.div`
   .accessory {
     border-top: 1px solid var(--accent-secondary);
     margin-top: .5rem;
-    padding-top: .5rem;
-
     order: 2;
+    padding-top: .5rem;
 
     time {
       color: var(--text-secondary);
@@ -66,8 +67,8 @@ const Self = styled.div`
       order: initial;
       padding: initial;
 
-      margin: .5rem 0;
       flex: 0 0 7.5rem;
+      margin: .5rem 0;
     }
   }
 
@@ -137,15 +138,14 @@ const Self = styled.div`
     h3 {
       color: var(--header-normal);
       font-size: 1.375rem;
-      margin-bottom: .5rem;
-
       line-height: 1.625rem;
+      margin-bottom: .5rem;
     }
 
     p {
       color: var(--text-primary);
-      line-height: 1.375rem;
       font-size: 1.125rem;
+      line-height: 1.375rem;
       margin-bottom: .5rem;
     }
 
@@ -184,8 +184,8 @@ const Self = styled.div`
 
   &:hover {
     @media (min-width: 768px) {
-      box-shadow: 0 5px 10px rgba(0, 0, 0, .05), 0 0 5px rgba(0, 0, 0, .06);
       border-color: transparent;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, .05), 0 0 5px rgba(0, 0, 0, .06);
     }
   }
 

@@ -20,6 +20,8 @@ class Articles {
             articles.map(async article => {
               const alreadyExists = await db.articles.get({ uri: article.uri })
 
+              console.log(article, alreadyExists)
+
               if(alreadyExists) return
 
               await db.articles.put(article)
