@@ -31,9 +31,7 @@ function ArticleModal({ article, children }) {
           </div>
           <div className="body">
             <figure>
-              <picture
-                style={{ paddingTop: `${aspectRatio * 100}%` }}
-              >
+              <picture style={{ paddingTop: `${aspectRatio * 100}%` }}>
                 <img
                   src={formattedArticle.multimedia.fullImage.url}
                   alt={formattedArticle.multimedia.fullImage.caption}
@@ -71,7 +69,7 @@ function ArticleModal({ article, children }) {
   )
 }
 
-const Content = styled.section`
+const Content = styled.div`
   width: calc(100vw - 3rem);
 
   background: white;
