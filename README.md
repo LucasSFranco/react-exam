@@ -37,7 +37,7 @@ $ yarn
 $ yarn start
 
 # compila e minifica para produção
-$ yarn start
+$ yarn build
 
 # executa os testes unitários
 yarn test:unit
