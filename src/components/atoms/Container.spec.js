@@ -5,7 +5,7 @@ import Container from './Container'
 
 describe('Container', () => {
 
-  it('properly renders', async () => {
+  it('matches snapshot', async () => {
 
     const { container } = render(
       <Container>

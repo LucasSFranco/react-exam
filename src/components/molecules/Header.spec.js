@@ -5,7 +5,7 @@ import Header from './Header'
 
 describe('Header', () => {
 
-  it('properly renders', async () => {
+  it('matches snapshot', async () => {
 
     const { container } = render(
       <Header />

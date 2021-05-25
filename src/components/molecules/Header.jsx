@@ -6,6 +6,7 @@ function Header() {
   return (
     <Self className="header">
       <a
+        data-test="nyt-logo"
         target="_blank"
         rel="noreferrer"
         href="https://www.nytimes.com/"

@@ -1,0 +1,1731 @@
+{
+  "science": {
+    "data": {
+      "status": "OK",
+      "copyright": "Copyright (c) 2021 The New York Times Company. All Rights Reserved.",
+      "section": "Science",
+      "last_updated": "2021-05-20T12:31:39-04:00",
+      "num_results": 11,
+      "results": [
+        {
+          "section": "us",
+          "subsection": "",
+          "title": "A Serene Shore Resort, Except for the SpaceX ‘Ball of Fire’",
+          "abstract": "For years, those in a rural Texas village cherished living among nature and wildlife. Elon Musk’s SpaceX has brought new fears and the promise of an economic boost to one of America’s poorest corners.",
+          "url": "https://www.nytimes.com/2021/05/24/us/space-x-boca-chica-texas.html",
+          "uri": "nyt://article/6354c672-ae40-51ae-8364-ac037b08d8f7",
+          "byline": "By Edgar Sandoval and Richard Webner",
+          "item_type": "Article",
+          "updated_date": "2021-05-24T11:05:10-04:00",
+          "created_date": "2021-05-24T10:24:08-04:00",
+          "published_date": "2021-05-24T10:24:08-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Rocket Science and Propulsion",
+            "Explosions (Accidental)",
+            "Private Spaceflight",
+            "Environment",
+            "Labor and Jobs"
+          ],
+          "org_facet": [
+            "Space Exploration Technologies Corp"
+          ],
+          "per_facet": [
+            "Musk, Elon"
+          ],
+          "geo_facet": [
+            "Brownsville (Tex)",
+            "Rio Grande Valley (Tex)",
+            "Boca Chica Village (Tex)"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1754,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Christopher Lee for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Christopher Lee for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Christopher Lee for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/00SpaceX-Texasborder-1-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Christopher Lee for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-articleInline.jpg",
+              "format": "Normal",
+              "height": 163,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Christopher Lee for The New York Times"
+            }
+          ],
+          "short_url": "https://nyti.ms/2RzXXI0"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Facing Hurricane and Wildfire Seasons, FEMA Is Already Worn Out",
+          "abstract": "Multiple missions, combined with years of record disasters, have strained the agency — and scientists predict an unusually severe disaster season ahead.",
+          "url": "https://www.nytimes.com/2021/05/20/climate/fema-staff-wildfires-hurricane-season.html",
+          "uri": "nyt://article/3d9c897b-69ef-5dc9-a825-640fbfd5580a",
+          "byline": "By Christopher Flavelle and Zolan Kanno-Youngs",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T16:26:13-04:00",
+          "created_date": "2021-05-20T13:32:02-04:00",
+          "published_date": "2021-05-20T13:32:02-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Global Warming",
+            "Greenhouse Gas Emissions",
+            "Hurricanes and Tropical Storms",
+            "Disasters and Emergencies",
+            "Floods",
+            "Wildfires"
+          ],
+          "org_facet": [
+            "Federal Emergency Management Agency"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-FEMASTAFF1/20CLI-FEMASTAFF1-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1364,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Rescue personnel searched debris and destroyed buildings in the aftermath of Hurricane Michael in Mexico Beach, Fla., in 2018.",
+              "copyright": "Gerald Herbert/Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-FEMASTAFF1/20CLI-FEMASTAFF1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Rescue personnel searched debris and destroyed buildings in the aftermath of Hurricane Michael in Mexico Beach, Fla., in 2018.",
+              "copyright": "Gerald Herbert/Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-FEMASTAFF1/20CLI-FEMASTAFF1-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Rescue personnel searched debris and destroyed buildings in the aftermath of Hurricane Michael in Mexico Beach, Fla., in 2018.",
+              "copyright": "Gerald Herbert/Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-FEMASTAFF1/20CLI-FEMASTAFF1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Rescue personnel searched debris and destroyed buildings in the aftermath of Hurricane Michael in Mexico Beach, Fla., in 2018.",
+              "copyright": "Gerald Herbert/Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-FEMASTAFF1/20CLI-FEMASTAFF1-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Rescue personnel searched debris and destroyed buildings in the aftermath of Hurricane Michael in Mexico Beach, Fla., in 2018.",
+              "copyright": "Gerald Herbert/Associated Press"
+            }
+          ],
+          "short_url": "https://nyti.ms/3u0bO7q"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Even Amid a Pandemic, More Than 40 Million People Fled Their Homes",
+          "abstract": "Storms, floods, wildfires and to a lesser degree, conflict, uprooted millions globally in 2020 — the largest human displacement in more than a decade.",
+          "url": "https://www.nytimes.com/2021/05/20/climate/storms-floods-wildfires-displacement.html",
+          "uri": "nyt://article/a7df552b-c2a5-53a3-965c-29d86aacf192",
+          "byline": "By Somini Sengupta",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T16:04:42-04:00",
+          "created_date": "2021-05-20T13:30:21-04:00",
+          "published_date": "2021-05-20T13:30:21-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Global Warming",
+            "Greenhouse Gas Emissions",
+            "Weather",
+            "Floods",
+            "Hurricanes and Tropical Storms",
+            "Refugees and Displaced Persons"
+          ],
+          "org_facet": [
+            "Internal Displacement Monitoring Center"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-REFUGEES/20CLI-REFUGEES-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The evacuation of Dhal Char village in Bangladesh as Cyclone Amphan approached in 2020.",
+              "copyright": "District Administration of Bhola/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-REFUGEES/20CLI-REFUGEES-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The evacuation of Dhal Char village in Bangladesh as Cyclone Amphan approached in 2020.",
+              "copyright": "District Administration of Bhola/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-REFUGEES/20CLI-REFUGEES-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The evacuation of Dhal Char village in Bangladesh as Cyclone Amphan approached in 2020.",
+              "copyright": "District Administration of Bhola/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-REFUGEES/20CLI-REFUGEES-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The evacuation of Dhal Char village in Bangladesh as Cyclone Amphan approached in 2020.",
+              "copyright": "District Administration of Bhola/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-REFUGEES/20CLI-REFUGEES-articleInline.jpg",
+              "format": "Normal",
+              "height": 123,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The evacuation of Dhal Char village in Bangladesh as Cyclone Amphan approached in 2020.",
+              "copyright": "District Administration of Bhola/Agence France-Presse — Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/3bH9Ouw"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Scientists Predict an ‘Above Normal’ Atlantic Hurricane Season",
+          "abstract": "The forecast, which follows a record season in 2020, arrives as hurricanes are becoming more destructive over time.",
+          "url": "https://www.nytimes.com/2021/05/20/climate/atlantic-hurricane-outlook.html",
+          "uri": "nyt://article/8ffcb69f-d6f8-5d40-b886-b8c9e59da109",
+          "byline": "By John Schwartz",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T15:15:38-04:00",
+          "created_date": "2021-05-20T12:57:55-04:00",
+          "published_date": "2021-05-20T12:57:55-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Global Warming",
+            "Weather",
+            "Hurricanes and Tropical Storms",
+            "Floods",
+            "Air Pollution"
+          ],
+          "org_facet": [
+            "National Oceanic and Atmospheric Administration"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+            "Lake Charles (La)"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-HURRICNAES1/20CLI-HURRICNAES1-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Lake Pontchartrain in New Orleans as Hurricane Zeta approached in October. There were so many named storms last year, NOAA had to use Greek letters to name some.",
+              "copyright": "Edmund D. Fountain for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-HURRICNAES1/20CLI-HURRICNAES1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Lake Pontchartrain in New Orleans as Hurricane Zeta approached in October. There were so many named storms last year, NOAA had to use Greek letters to name some.",
+              "copyright": "Edmund D. Fountain for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-HURRICNAES1/20CLI-HURRICNAES1-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Lake Pontchartrain in New Orleans as Hurricane Zeta approached in October. There were so many named storms last year, NOAA had to use Greek letters to name some.",
+              "copyright": "Edmund D. Fountain for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-HURRICNAES1/20CLI-HURRICNAES1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Lake Pontchartrain in New Orleans as Hurricane Zeta approached in October. There were so many named storms last year, NOAA had to use Greek letters to name some.",
+              "copyright": "Edmund D. Fountain for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/climate/20CLI-HURRICNAES1/20CLI-HURRICNAES1-articleInline.jpg",
+              "format": "Normal",
+              "height": 122,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Lake Pontchartrain in New Orleans as Hurricane Zeta approached in October. There were so many named storms last year, NOAA had to use Greek letters to name some.",
+              "copyright": "Edmund D. Fountain for The New York Times"
+            }
+          ],
+          "short_url": "https://nyti.ms/3f4qbUb"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Intruder Pests May Drain Trillions From Africa’s Economies, Study Finds",
+          "abstract": "Invasive species could cost the agricultural sector more than $3.5 trillion across the continent, a new study estimated.",
+          "url": "https://www.nytimes.com/2021/05/19/climate/africa-agriculture-invasive-species.html",
+          "uri": "nyt://article/849b89ad-1d65-577f-98b0-cee33c2bc2bd",
+          "byline": "By Shola Lawal",
+          "item_type": "Article",
+          "updated_date": "2021-05-19T23:37:15-04:00",
+          "created_date": "2021-05-19T20:00:07-04:00",
+          "published_date": "2021-05-19T20:00:07-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Invasive Species",
+            "Weeds",
+            "Global Warming",
+            "Agriculture and Farming",
+            "Research"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+            "Africa",
+            "Nigeria"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-AFRICA/merlin_169983495_199e9db5-8375-4194-9b49-6d6f98110bbb-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A farmer near Sokoto in northwestern Nigeria. Corn, cassava and tomatoes have been hit hard by invasive species on the continent.",
+              "copyright": "Luis Tato/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-AFRICA/19CLI-AFRICA-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A farmer near Sokoto in northwestern Nigeria. Corn, cassava and tomatoes have been hit hard by invasive species on the continent.",
+              "copyright": "Luis Tato/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-AFRICA/19CLI-AFRICA-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A farmer near Sokoto in northwestern Nigeria. Corn, cassava and tomatoes have been hit hard by invasive species on the continent.",
+              "copyright": "Luis Tato/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-AFRICA/19CLI-AFRICA-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A farmer near Sokoto in northwestern Nigeria. Corn, cassava and tomatoes have been hit hard by invasive species on the continent.",
+              "copyright": "Luis Tato/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-AFRICA/19CLI-AFRICA-articleInline.jpg",
+              "format": "Normal",
+              "height": 121,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A farmer near Sokoto in northwestern Nigeria. Corn, cassava and tomatoes have been hit hard by invasive species on the continent.",
+              "copyright": "Luis Tato/Agence France-Presse — Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/2S7gRpl"
+        },
+        {
+          "section": "science",
+          "subsection": "",
+          "title": "David Wake, Expert on Salamanders and Evolution, Dies at 84",
+          "abstract": "While on a college field trip to collect beetles, he found salamanders. He became an authority and later grew alarmed by the disappearance of many amphibians.",
+          "url": "https://www.nytimes.com/2021/05/19/science/david-wake-dead.html",
+          "uri": "nyt://article/b0207e89-1801-5378-b210-15f667d12b43",
+          "byline": "By Richard Sandomir",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T10:53:07-04:00",
+          "created_date": "2021-05-19T18:11:32-04:00",
+          "published_date": "2021-05-19T18:11:32-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Deaths (Obituaries)",
+            "Salamanders",
+            "Amphibians",
+            "Evolution (Biology)",
+            "Wildlife Die-Offs",
+            "Biology and Biochemistry",
+            "Global Warming"
+          ],
+          "org_facet": [
+            "University of California, Berkeley"
+          ],
+          "per_facet": [
+            "Wake, David (1936-2021)"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/18/obituaries/Wake-01/merlin_187702416_97743f10-014a-4650-8233-d148c8900f42-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 2048,
+              "width": 1591,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The biologist David Wake with a jar of preserved salamanders in the 1970s. “If you sat down to dinner with him,” a former student said, “he would talk about and describe salamanders and you’d want to drop everything to go with him.”",
+              "copyright": "Saxon Donnelly, UC Berkeley"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/18/obituaries/Wake-01/Wake-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The biologist David Wake with a jar of preserved salamanders in the 1970s. “If you sat down to dinner with him,” a former student said, “he would talk about and describe salamanders and you’d want to drop everything to go with him.”",
+              "copyright": "Saxon Donnelly, UC Berkeley"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/18/obituaries/Wake-01/Wake-01-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The biologist David Wake with a jar of preserved salamanders in the 1970s. “If you sat down to dinner with him,” a former student said, “he would talk about and describe salamanders and you’d want to drop everything to go with him.”",
+              "copyright": "Saxon Donnelly, UC Berkeley"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/18/obituaries/Wake-01/Wake-01-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The biologist David Wake with a jar of preserved salamanders in the 1970s. “If you sat down to dinner with him,” a former student said, “he would talk about and describe salamanders and you’d want to drop everything to go with him.”",
+              "copyright": "Saxon Donnelly, UC Berkeley"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/18/obituaries/Wake-01/merlin_187702416_97743f10-014a-4650-8233-d148c8900f42-articleInline.jpg",
+              "format": "Normal",
+              "height": 245,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The biologist David Wake with a jar of preserved salamanders in the 1970s. “If you sat down to dinner with him,” a former student said, “he would talk about and describe salamanders and you’d want to drop everything to go with him.”",
+              "copyright": "Saxon Donnelly, UC Berkeley"
+            }
+          ],
+          "short_url": "https://nyti.ms/3ouN0TU"
+        },
+        {
+          "section": "health",
+          "subsection": "",
+          "title": "What Can and Can’t Be Learned From a Doctor in China Who Pioneered Masks",
+          "abstract": "Dr. Wu Lien-Teh helped change the course of a plague epidemic in the early 20th century and promoted the use of masks as a public health tool.",
+          "url": "https://www.nytimes.com/2021/05/19/health/wu-lien-teh-china-masks.html",
+          "uri": "nyt://article/3d4f5d74-9286-5a58-a9c8-dc4895a898c6",
+          "byline": "By Wudan Yan",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T10:16:43-04:00",
+          "created_date": "2021-05-19T15:04:38-04:00",
+          "published_date": "2021-05-19T15:04:38-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Doctors",
+            "Plague",
+            "Content Type: Personal Profile",
+            "Epidemics",
+            "Masks",
+            "Coronavirus (2019-nCoV)",
+            "Protective Clothing and Gear",
+            "your-feed-science",
+            "your-feed-health"
+          ],
+          "org_facet": [],
+          "per_facet": [
+            "Wu Lien-Teh"
+          ],
+          "geo_facet": [
+            "China",
+            "Malaysia"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19VIRUS-WU-promo/19VIRUS-WU-promo-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Library of Congress"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19VIRUS-WU-promo/19VIRUS-WU-promo-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Library of Congress"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19VIRUS-WU-promo/19VIRUS-WU-promo-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Library of Congress"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19VIRUS-WU-promo/19VIRUS-WU-promo-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Library of Congress"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19VIRUS-WU-promo/19VIRUS-WU-promo-articleInline.jpg",
+              "format": "Normal",
+              "height": 133,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Library of Congress"
+            }
+          ],
+          "short_url": "https://nyti.ms/33WByXA"
+        },
+        {
+          "section": "arts",
+          "subsection": "",
+          "title": "A New York Museum Staple Gets a New Glimmer",
+          "abstract": "At the redesigned Allison and Roberto Mignone Halls of Gems and Minerals, which opens June 12, the evolution of minerals is front and center.",
+          "url": "https://www.nytimes.com/2021/05/19/arts/museum-of-natural-history-minerals-gems-halls.html",
+          "uri": "nyt://article/bc2dd2c6-b939-51ff-942e-f21c10ad1492",
+          "byline": "By Eilene Zimmerman",
+          "item_type": "Article",
+          "updated_date": "2021-05-19T14:17:04-04:00",
+          "created_date": "2021-05-19T14:00:14-04:00",
+          "published_date": "2021-05-19T14:00:14-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Museums",
+            "Metals and Minerals",
+            "Evolution (Biology)",
+            "Jewels and Jewelry"
+          ],
+          "org_facet": [
+            "American Museum of Natural History"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+            "New York City"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/23/multimedia/23sp-AMNH1/merlin_187236039_9a57976c-f67e-48a6-b610-515dfaace178-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1366,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The redesigned displays are spacious and bright, putting the emphasis on the stars of the show, the minerals and gems.",
+              "copyright": "Vincent Tullo for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/23/multimedia/23sp-AMNH1/23sp-AMNH1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The redesigned displays are spacious and bright, putting the emphasis on the stars of the show, the minerals and gems.",
+              "copyright": "Vincent Tullo for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/23/multimedia/23sp-AMNH1/23sp-AMNH1-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The redesigned displays are spacious and bright, putting the emphasis on the stars of the show, the minerals and gems.",
+              "copyright": "Vincent Tullo for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/23/multimedia/23sp-AMNH1/23sp-AMNH1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The redesigned displays are spacious and bright, putting the emphasis on the stars of the show, the minerals and gems.",
+              "copyright": "Vincent Tullo for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/23/multimedia/23sp-AMNH1/merlin_187236039_9a57976c-f67e-48a6-b610-515dfaace178-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The redesigned displays are spacious and bright, putting the emphasis on the stars of the show, the minerals and gems.",
+              "copyright": "Vincent Tullo for The New York Times"
+            }
+          ],
+          "short_url": "https://nyti.ms/3yowoBT"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Severe Drought, Worsened by Climate Change, Ravages the American West",
+          "abstract": "Heat and shifting weather patterns have intensified wildfires and sharply reduced water supplies across the Southwest, the Pacific Coast and North Dakota.",
+          "url": "https://www.nytimes.com/2021/05/19/climate/drought.html",
+          "uri": "nyt://article/1964c38c-ec74-53eb-90b1-6d8a65c5ca3e",
+          "byline": "By Henry Fountain",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T11:46:44-04:00",
+          "created_date": "2021-05-19T13:51:04-04:00",
+          "published_date": "2021-05-19T13:51:04-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Global Warming",
+            "Greenhouse Gas Emissions",
+            "Drought",
+            "Wildfires",
+            "Water",
+            "Rain",
+            "Agriculture and Farming"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+            "Albuquerque (NM)",
+            "California",
+            "Lake Mead",
+            "North Dakota"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-DROUGHT3/merlin_187576158_598e790e-dff6-4c60-83b2-833e52855a4d-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A shrinking Folsom Lake in El Dorado Hills, Calif., this month left boat docks high and dry.",
+              "copyright": "Justin Sullivan/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-DROUGHT3/19CLI-DROUGHT3-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A shrinking Folsom Lake in El Dorado Hills, Calif., this month left boat docks high and dry.",
+              "copyright": "Justin Sullivan/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-DROUGHT3/19CLI-DROUGHT3-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A shrinking Folsom Lake in El Dorado Hills, Calif., this month left boat docks high and dry.",
+              "copyright": "Justin Sullivan/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-DROUGHT3/19CLI-DROUGHT3-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A shrinking Folsom Lake in El Dorado Hills, Calif., this month left boat docks high and dry.",
+              "copyright": "Justin Sullivan/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/19CLI-DROUGHT3/19CLI-DROUGHT3-articleInline.jpg",
+              "format": "Normal",
+              "height": 125,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "A shrinking Folsom Lake in El Dorado Hills, Calif., this month left boat docks high and dry.",
+              "copyright": "Justin Sullivan/Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/3bAyMM0"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Blazes That Refuse to Die: ‘Zombie Fires’",
+          "abstract": "With a changing climate, fires in far northern forests that smolder throughout winter and erupt again in spring could become more common, a new study suggests.",
+          "url": "https://www.nytimes.com/2021/05/19/climate/climate-change-zombie-forest-fires.html",
+          "uri": "nyt://article/c631be9d-a3c2-5833-bee7-4bd21db0389d",
+          "byline": "By John Schwartz",
+          "item_type": "Article",
+          "updated_date": "2021-05-19T12:56:25-04:00",
+          "created_date": "2021-05-19T11:02:04-04:00",
+          "published_date": "2021-05-19T11:02:04-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Global Warming",
+            "Wildfires",
+            "Forests and Forestry"
+          ],
+          "org_facet": [
+            "Nature (Journal)"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19CLI-ZOMBIEFIRES1/19CLI-ZOMBIEFIRES1-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1591,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The Bogus Creek Fire in the Yukon Delta National Wildlife Refuge in Alaska, a state where the vast majority of carbon emissions from fires come from burning soil.",
+              "copyright": "Matt Snyder/Alaska Division of Forestry, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19CLI-ZOMBIEFIRES1/19CLI-ZOMBIEFIRES1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The Bogus Creek Fire in the Yukon Delta National Wildlife Refuge in Alaska, a state where the vast majority of carbon emissions from fires come from burning soil.",
+              "copyright": "Matt Snyder/Alaska Division of Forestry, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19CLI-ZOMBIEFIRES1/19CLI-ZOMBIEFIRES1-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The Bogus Creek Fire in the Yukon Delta National Wildlife Refuge in Alaska, a state where the vast majority of carbon emissions from fires come from burning soil.",
+              "copyright": "Matt Snyder/Alaska Division of Forestry, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19CLI-ZOMBIEFIRES1/19CLI-ZOMBIEFIRES1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The Bogus Creek Fire in the Yukon Delta National Wildlife Refuge in Alaska, a state where the vast majority of carbon emissions from fires come from burning soil.",
+              "copyright": "Matt Snyder/Alaska Division of Forestry, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/science/19CLI-ZOMBIEFIRES1/19CLI-ZOMBIEFIRES1-articleInline.jpg",
+              "format": "Normal",
+              "height": 133,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "The Bogus Creek Fire in the Yukon Delta National Wildlife Refuge in Alaska, a state where the vast majority of carbon emissions from fires come from burning soil.",
+              "copyright": "Matt Snyder/Alaska Division of Forestry, via Associated Press"
+            }
+          ],
+          "short_url": "https://nyti.ms/3yrFTjU"
+        },
+        {
+          "section": "climate",
+          "subsection": "",
+          "title": "Here Is Who’s Behind the Global Surge in Single-Use Plastic",
+          "abstract": "A new report shows that a surprisingly small number of big companies and banks are behind the manufacturing and financing of much of the world’s single-use plastic.",
+          "url": "https://www.nytimes.com/2021/05/18/climate/single-use-plastic.html",
+          "uri": "nyt://article/e862679c-522d-5c82-9a09-868693eeda00",
+          "byline": "By Michael Corkery and Somini Sengupta",
+          "item_type": "Article",
+          "updated_date": "2021-05-19T15:05:51-04:00",
+          "created_date": "2021-05-18T16:55:41-04:00",
+          "published_date": "2021-05-18T16:55:41-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Plastics",
+            "Pollution",
+            "Recycling of Waste Materials",
+            "Oil (Petroleum) and Gasoline",
+            "Global Warming",
+            "Greenhouse Gas Emissions"
+          ],
+          "org_facet": [
+            "Exxon Mobil Corp",
+            "Dow Chemical Company",
+            "China Petroleum and Chemical Corporation (Sinopec)"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1363,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Collecting plastic at a landfill on Sulawesi in Indonesia. Half the world&rsquo;s single-use plastic is made by 20 big companies, researchers said.",
+              "copyright": "Basri Marzuki/NurPhoto, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Collecting plastic at a landfill on Sulawesi in Indonesia. Half the world&rsquo;s single-use plastic is made by 20 big companies, researchers said.",
+              "copyright": "Basri Marzuki/NurPhoto, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Collecting plastic at a landfill on Sulawesi in Indonesia. Half the world&rsquo;s single-use plastic is made by 20 big companies, researchers said.",
+              "copyright": "Basri Marzuki/NurPhoto, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Collecting plastic at a landfill on Sulawesi in Indonesia. Half the world&rsquo;s single-use plastic is made by 20 big companies, researchers said.",
+              "copyright": "Basri Marzuki/NurPhoto, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/climate/18CLI-PLASTIC-print/18CLI-PLASTIC-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Collecting plastic at a landfill on Sulawesi in Indonesia. Half the world&rsquo;s single-use plastic is made by 20 big companies, researchers said.",
+              "copyright": "Basri Marzuki/NurPhoto, via Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/3ylSsNv"
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "cache-control": "private",
+      "content-type": "application/json"
+    },
+    "config": {
+      "url": "science.json",
+      "method": "get",
+      "headers": {
+        "Accept": "application/json, text/plain, */*"
+      },
+      "baseURL": "https://api.nytimes.com/svc/topstories/v2/",
+      "transformRequest": [
+        null
+      ],
+      "transformResponse": [
+        null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "params": {
+        "api-key": "RAGG9REMGabQ9hJ0ID1JLllLAwToUEx1"
+      }
+    },
+    "request": {}
+  },
+  "technology": {
+    "data": {
+      "status": "OK",
+      "copyright": "Copyright (c) 2021 The New York Times Company. All Rights Reserved.",
+      "section": "Technology",
+      "last_updated": "2021-05-20T15:38:39-04:00",
+      "num_results": 9,
+      "results": [
+        {
+          "section": "technology",
+          "subsection": "",
+          "title": "Once Tech’s Favorite Economist, Now a Thorn in Its Side",
+          "abstract": "Paul Romer’s call for government activism, particularly toward the big tech companies, reflects “a profound change in my thinking.”",
+          "url": "https://www.nytimes.com/2021/05/20/technology/tech-antitrust-paul-romer.html",
+          "uri": "nyt://article/d338f135-a44f-5787-ace9-ba40ea668df2",
+          "byline": "By Steve Lohr",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T12:27:35-04:00",
+          "created_date": "2021-05-20T05:00:31-04:00",
+          "published_date": "2021-05-20T05:00:31-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "United States Economy",
+            "Computers and the Internet",
+            "Antitrust Laws and Competition Issues",
+            "Economics (Theory and Philosophy)",
+            "Online Advertising",
+            "Corporate Taxes",
+            "United States Politics and Government",
+            "Regulation and Deregulation of Industry"
+          ],
+          "org_facet": [
+            "Facebook Inc"
+          ],
+          "per_facet": [
+            "Romer, Paul M"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/21/business/00romer/merlin_187121226_e2034fb9-4076-46c0-95e8-ac70a4feb6cc-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 2048,
+              "width": 1639,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Paul Romer, a Nobel economist and the creator of New Growth Theory, in his backyard in Manhattan.",
+              "copyright": "Caroline Tompkins for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/21/business/00romer/00romer-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Paul Romer, a Nobel economist and the creator of New Growth Theory, in his backyard in Manhattan.",
+              "copyright": "Caroline Tompkins for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/21/business/00romer/00romer-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Paul Romer, a Nobel economist and the creator of New Growth Theory, in his backyard in Manhattan.",
+              "copyright": "Caroline Tompkins for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/21/business/00romer/00romer-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Paul Romer, a Nobel economist and the creator of New Growth Theory, in his backyard in Manhattan.",
+              "copyright": "Caroline Tompkins for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/21/business/00romer/merlin_187121226_e2034fb9-4076-46c0-95e8-ac70a4feb6cc-articleInline.jpg",
+              "format": "Normal",
+              "height": 238,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Paul Romer, a Nobel economist and the creator of New Growth Theory, in his backyard in Manhattan.",
+              "copyright": "Caroline Tompkins for The New York Times"
+            }
+          ],
+          "short_url": "https://nyti.ms/3f3LVzn"
+        },
+        {
+          "section": "technology",
+          "subsection": "",
+          "title": "Irish Hospitals Are Latest to Be Hit by Ransomware Attacks",
+          "abstract": "Hospitals in Ireland, New Zealand and Scripps Health in San Diego are reeling from digital extortion attacks.",
+          "url": "https://www.nytimes.com/2021/05/20/technology/ransomware-attack-ireland-hospitals.html",
+          "uri": "nyt://article/9eeb9412-569e-5403-8b58-27987f1dac63",
+          "byline": "By Nicole Perlroth and Adam Satariano",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T16:10:26-04:00",
+          "created_date": "2021-05-20T15:32:29-04:00",
+          "published_date": "2021-05-20T15:32:29-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Extortion and Blackmail",
+            "Cyberattacks and Hackers",
+            "Computers and the Internet",
+            "Computer Security",
+            "Hospitals",
+            "Politics and Government"
+          ],
+          "org_facet": [
+            "Health Service Executive (Ireland)",
+            "Colonial Pipeline Co",
+            "DarkSide (Hacking Group)"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+            "Ireland"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ramsomware/merlin_187943394_a76b24a0-1fae-4e61-a533-6e1192673dc7-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Naas General Hospital in County Kildare, Ireland. The country’s health system has been hobbled for a week by a ransomware attack.",
+              "copyright": "Niall Carson/Press Association, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ramsomware/20ramsomware-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Naas General Hospital in County Kildare, Ireland. The country’s health system has been hobbled for a week by a ransomware attack.",
+              "copyright": "Niall Carson/Press Association, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ramsomware/20ramsomware-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Naas General Hospital in County Kildare, Ireland. The country’s health system has been hobbled for a week by a ransomware attack.",
+              "copyright": "Niall Carson/Press Association, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ramsomware/merlin_187943394_a76b24a0-1fae-4e61-a533-6e1192673dc7-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Naas General Hospital in County Kildare, Ireland. The country’s health system has been hobbled for a week by a ransomware attack.",
+              "copyright": "Niall Carson/Press Association, via Associated Press"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ramsomware/merlin_187943394_a76b24a0-1fae-4e61-a533-6e1192673dc7-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Naas General Hospital in County Kildare, Ireland. The country’s health system has been hobbled for a week by a ransomware attack.",
+              "copyright": "Niall Carson/Press Association, via Associated Press"
+            }
+          ],
+          "short_url": "https://nyti.ms/3bFzWG2"
+        },
+        {
+          "section": "business",
+          "subsection": "",
+          "title": "If you’ve always wanted a Twitter blue check, now you can apply for one.",
+          "abstract": "The company is changing the verification process after confusion and contention, making it easier for select users to request to be verified.",
+          "url": "https://www.nytimes.com/2021/05/20/business/twitter-verified-accounts.html",
+          "uri": "nyt://article/3c3bf7c1-7f73-5e8a-ba3e-20aba593f339",
+          "byline": "By Kate Conger",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T11:22:30-04:00",
+          "created_date": "2021-05-20T11:00:11-04:00",
+          "published_date": "2021-05-20T11:00:11-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Social Media",
+            "News and News Media"
+          ],
+          "org_facet": [
+            "Twitter"
+          ],
+          "per_facet": [
+            "Dorsey, Jack"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20economy-briefing-twitter/merlin_178854111_6ade668a-7933-436e-9561-06b7a78ffe29-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Twitter’s headquarters in San Francisco. The company’s process for verifying accounts has been opaque.",
+              "copyright": "Laura Morton for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20economy-briefing-twitter/20economy-briefing-twitter-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Twitter’s headquarters in San Francisco. The company’s process for verifying accounts has been opaque.",
+              "copyright": "Laura Morton for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20economy-briefing-twitter/20economy-briefing-twitter-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Twitter’s headquarters in San Francisco. The company’s process for verifying accounts has been opaque.",
+              "copyright": "Laura Morton for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20economy-briefing-twitter/merlin_178854111_6ade668a-7933-436e-9561-06b7a78ffe29-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Twitter’s headquarters in San Francisco. The company’s process for verifying accounts has been opaque.",
+              "copyright": "Laura Morton for The New York Times"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20economy-briefing-twitter/merlin_178854111_6ade668a-7933-436e-9561-06b7a78ffe29-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Twitter’s headquarters in San Francisco. The company’s process for verifying accounts has been opaque.",
+              "copyright": "Laura Morton for The New York Times"
+            }
+          ],
+          "short_url": "https://nyti.ms/3yoMP0V"
+        },
+        {
+          "section": "technology",
+          "subsection": "",
+          "title": "An Old Conflict With Digital Twists",
+          "abstract": "How the latest violence between Israelis and Palestinians encapsulates the best and worst of digital life.",
+          "url": "https://www.nytimes.com/2021/05/20/technology/israeli-palestinian-conflict-social-media.html",
+          "uri": "nyt://article/bc4285a0-6b9b-579a-9e8e-17bd068eacff",
+          "byline": "By Shira Ovide",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T12:43:30-04:00",
+          "created_date": "2021-05-20T12:43:30-04:00",
+          "published_date": "2021-05-20T12:43:30-04:00",
+          "material_type_facet": "",
+          "kicker": "on tech",
+          "des_facet": [
+            "Computers and the Internet",
+            "War and Armed Conflicts",
+            "Rumors and Misinformation",
+            "Social Media",
+            "Instant Messaging"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+            "Israel"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ontech-whatsapp/20ontech-whatsapp-superJumbo-v2.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Daniel Zender"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ontech-whatsapp/20ontech-whatsapp-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Daniel Zender"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ontech-whatsapp/20ontech-whatsapp-thumbLarge-v3.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Daniel Zender"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ontech-whatsapp/20ontech-whatsapp-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Daniel Zender"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/20/business/20ontech-whatsapp/20ontech-whatsapp-articleInline-v2.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Daniel Zender"
+            }
+          ],
+          "short_url": "https://nyti.ms/3uehNpv"
+        },
+        {
+          "section": "technology",
+          "subsection": "",
+          "title": "Founder of TikTok’s Parent Company Will Step Down as C.E.O.",
+          "abstract": "Zhang Yiming steered ByteDance to become China’s first truly globally successful internet company.",
+          "url": "https://www.nytimes.com/2021/05/19/technology/bytedance-tiktok-zhang-yiming-resign.html",
+          "uri": "nyt://article/6e98d947-9aa0-5117-9bdc-62101546a3b6",
+          "byline": "By Raymond Zhong",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T02:30:47-04:00",
+          "created_date": "2021-05-19T22:52:29-04:00",
+          "published_date": "2021-05-19T22:52:29-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Appointments and Executive Changes",
+            "Corporate Social Responsibility",
+            "Workplace Environment"
+          ],
+          "org_facet": [
+            "Beijing Bytedance Technology Co Ltd",
+            "TikTok (ByteDance)"
+          ],
+          "per_facet": [
+            "Zhang Yiming (1983- )"
+          ],
+          "geo_facet": [
+            "China"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/06/19/world/19bytedance/merlin_170449731_cceacbce-114c-4772-ab57-dbec572b4fa6-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Zhang Yiming, founder and C.E.O. of ByteDance, in Palo Alto, Calif., last year.",
+              "copyright": "Shannon Stapleton/Reuters"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/06/19/world/19bytedance/19bytedance-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Zhang Yiming, founder and C.E.O. of ByteDance, in Palo Alto, Calif., last year.",
+              "copyright": "Shannon Stapleton/Reuters"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/06/19/world/19bytedance/19bytedance-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Zhang Yiming, founder and C.E.O. of ByteDance, in Palo Alto, Calif., last year.",
+              "copyright": "Shannon Stapleton/Reuters"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/06/19/world/19bytedance/19bytedance-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Zhang Yiming, founder and C.E.O. of ByteDance, in Palo Alto, Calif., last year.",
+              "copyright": "Shannon Stapleton/Reuters"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/06/19/world/19bytedance/19bytedance-articleInline.jpg",
+              "format": "Normal",
+              "height": 125,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Zhang Yiming, founder and C.E.O. of ByteDance, in Palo Alto, Calif., last year.",
+              "copyright": "Shannon Stapleton/Reuters"
+            }
+          ],
+          "short_url": "https://nyti.ms/3oydfsP"
+        },
+        {
+          "section": "technology",
+          "subsection": "",
+          "title": "Should Alexa Read Our Moods?",
+          "abstract": "The time to debate the power of voice technology is now. (Before Alexa starts suggesting comfort foods.)",
+          "url": "https://www.nytimes.com/2021/05/19/technology/alexa.html",
+          "uri": "nyt://article/e237d763-ad3e-5055-abd9-9f6f6c3a443c",
+          "byline": "By Shira Ovide",
+          "item_type": "Article",
+          "updated_date": "2021-05-19T13:54:48-04:00",
+          "created_date": "2021-05-19T13:14:48-04:00",
+          "published_date": "2021-05-19T13:14:48-04:00",
+          "material_type_facet": "",
+          "kicker": "on tech",
+          "des_facet": [
+            "Voice Recognition Systems",
+            "Advertising and Marketing"
+          ],
+          "org_facet": [
+            "Amazon.com Inc"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19ontech-voice/19ontech-voice-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1364,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Maria Chimishkyan"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19ontech-voice/19ontech-voice-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Maria Chimishkyan"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19ontech-voice/19ontech-voice-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Maria Chimishkyan"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19ontech-voice/19ontech-voice-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Maria Chimishkyan"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19ontech-voice/19ontech-voice-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "",
+              "copyright": "Maria Chimishkyan"
+            }
+          ],
+          "short_url": "https://nyti.ms/3hDRGW1"
+        },
+        {
+          "section": "us",
+          "subsection": "",
+          "title": "Colorado Makes Doxxing Public Health Workers Illegal",
+          "abstract": "The pandemic made health care workers a new target for having their personal information shared online, often with real-world consequences.",
+          "url": "https://www.nytimes.com/2021/05/19/us/colorado-doxxing-law.html",
+          "uri": "nyt://article/182d11b4-459e-58c0-9866-468db25c086a",
+          "byline": "By Anna Schaverien",
+          "item_type": "Article",
+          "updated_date": "2021-05-19T16:44:28-04:00",
+          "created_date": "2021-05-19T12:33:59-04:00",
+          "published_date": "2021-05-19T12:33:59-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Cyberharassment",
+            "Law and Legislation",
+            "Computers and the Internet",
+            "Privacy"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+            "Colorado"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/multimedia/19xp-doxxing/merlin_181332825_fdb9d74a-eff9-4972-b617-bd99a8b22c83-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1366,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Health care workers across the United States have been harassed and threatened after their personal information was shared online.",
+              "copyright": "Michael Ciaglo/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/multimedia/19xp-doxxing/19xp-doxxing-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Health care workers across the United States have been harassed and threatened after their personal information was shared online.",
+              "copyright": "Michael Ciaglo/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/multimedia/19xp-doxxing/19xp-doxxing-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Health care workers across the United States have been harassed and threatened after their personal information was shared online.",
+              "copyright": "Michael Ciaglo/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/multimedia/19xp-doxxing/19xp-doxxing-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Health care workers across the United States have been harassed and threatened after their personal information was shared online.",
+              "copyright": "Michael Ciaglo/Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/multimedia/19xp-doxxing/merlin_181332825_fdb9d74a-eff9-4972-b617-bd99a8b22c83-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Health care workers across the United States have been harassed and threatened after their personal information was shared online.",
+              "copyright": "Michael Ciaglo/Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/2S9kE5H"
+        },
+        {
+          "section": "technology",
+          "subsection": "",
+          "title": "Mob Violence Against Palestinians in Israel Is Fueled by Groups on WhatsApp",
+          "abstract": "Israeli extremists have formed more than 100 new groups on the Facebook-owned encrypted messaging app in recent days to target attacks.",
+          "url": "https://www.nytimes.com/2021/05/19/technology/israeli-clashes-pro-violence-groups-whatsapp.html",
+          "uri": "nyt://article/0dd19538-dfb1-5867-9c17-4d9cdfd4b142",
+          "byline": "By Sheera Frenkel",
+          "item_type": "Article",
+          "updated_date": "2021-05-20T10:50:00-04:00",
+          "created_date": "2021-05-19T05:00:28-04:00",
+          "published_date": "2021-05-19T05:00:28-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Jews and Judaism",
+            "Fringe Groups and Movements",
+            "Palestinians",
+            "Arabs",
+            "Social Media",
+            "Mobile Applications",
+            "Instant Messaging",
+            "War and Armed Conflicts",
+            "Demonstrations, Protests and Riots",
+            "Rumors and Misinformation"
+          ],
+          "org_facet": [
+            "Telegram LLC",
+            "WhatsApp Inc"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+            "Israel"
+          ],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "An Israeli man at a restaurant that was attacked last week in the city of Bat Yam.",
+              "copyright": "Gil Cohen-Magen/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/19whatsapp-israel1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "An Israeli man at a restaurant that was attacked last week in the city of Bat Yam.",
+              "copyright": "Gil Cohen-Magen/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/19whatsapp-israel1-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "An Israeli man at a restaurant that was attacked last week in the city of Bat Yam.",
+              "copyright": "Gil Cohen-Magen/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "An Israeli man at a restaurant that was attacked last week in the city of Bat Yam.",
+              "copyright": "Gil Cohen-Magen/Agence France-Presse — Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19whatsapp-israel1/merlin_187693269_c6ae324b-0fb1-4a51-bcb0-311f0faafb89-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "An Israeli man at a restaurant that was attacked last week in the city of Bat Yam.",
+              "copyright": "Gil Cohen-Magen/Agence France-Presse — Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/2T1UToh"
+        },
+        {
+          "section": "business",
+          "subsection": "media",
+          "title": "After Media Detour, AT&T Confronts Old Problems",
+          "abstract": "Following its spinoff of WarnerMedia, AT&T is back to primarily being a wireless company, with all of the challenges that entails.",
+          "url": "https://www.nytimes.com/2021/05/18/business/media/att-discovery-merger.html",
+          "uri": "nyt://article/1d63c43b-0b65-5872-8d2f-ee6493ee5602",
+          "byline": "By Edmund Lee and Lauren Hirsch",
+          "item_type": "Article",
+          "updated_date": "2021-05-18T22:25:18-04:00",
+          "created_date": "2021-05-18T18:51:45-04:00",
+          "published_date": "2021-05-18T18:51:45-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+            "Mergers, Acquisitions and Divestitures",
+            "Wireless Communications"
+          ],
+          "org_facet": [
+            "AT&T Inc",
+            "DirecTV",
+            "Warner Media LLC",
+            "Time Warner Inc"
+          ],
+          "per_facet": [
+            "Stephenson, Randall L",
+            "Stankey, John T",
+            "Whitacre, Edward E Jr"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1421,
+              "width": 2048,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Alexander Graham Bell, with the first telephone, circa 1876.",
+              "copyright": "Ullstein Bild, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Alexander Graham Bell, with the first telephone, circa 1876.",
+              "copyright": "Ullstein Bild, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-thumbLarge.jpg",
+              "format": "thumbLarge",
+              "height": 150,
+              "width": 150,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Alexander Graham Bell, with the first telephone, circa 1876.",
+              "copyright": "Ullstein Bild, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Alexander Graham Bell, with the first telephone, circa 1876.",
+              "copyright": "Ullstein Bild, via Getty Images"
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/05/19/business/19att-print/19att-print-articleInline.jpg",
+              "format": "Normal",
+              "height": 132,
+              "width": 190,
+              "type": "image",
+              "subtype": "photo",
+              "caption": "Alexander Graham Bell, with the first telephone, circa 1876.",
+              "copyright": "Ullstein Bild, via Getty Images"
+            }
+          ],
+          "short_url": "https://nyti.ms/3ylJAYb"
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "cache-control": "private",
+      "content-type": "application/json"
+    },
+    "config": {
+      "url": "technology.json",
+      "method": "get",
+      "headers": {
+        "Accept": "application/json, text/plain, */*"
+      },
+      "baseURL": "https://api.nytimes.com/svc/topstories/v2/",
+      "transformRequest": [
+        null
+      ],
+      "transformResponse": [
+        null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "params": {
+        "api-key": "RAGG9REMGabQ9hJ0ID1JLllLAwToUEx1"
+      }
+    },
+    "request": {}
+  }
+}

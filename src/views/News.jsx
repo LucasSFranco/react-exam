@@ -11,9 +11,12 @@ function News() {
     <Self className="news">
       <Header />
       <div className="content">
-        <div className="scrollbox">
+        <div
+          className="scrollbox"
+          data-test="news-scrollbox"
+        >
           <Navbar />
-          <Container>
+          <Container data-test="news-list-container">
             <ArticleList />
           </Container>
         </div>

@@ -1,12 +1,11 @@
-import api from './_api'
-import db from './_dexie'
+import api from './api'
+import db from './dexie'
 import Article from '../models/Article'
 
 class Articles {
-
   static topics = ['science', 'technology']
 
-  static async sync() {
+  static async sync () {
     await Promise.all(
       Articles.topics.map(
         async topic => {
@@ -19,7 +18,7 @@ class Articles {
             articles.map(async article => {
               const alreadyExists = await db.articles.get({ uri: article.uri })
 
-              if(alreadyExists) return
+              if (alreadyExists) return
 
               await db.articles.put(article)
             })
@@ -27,24 +26,19 @@ class Articles {
         }
       )
     )
-
-    // await new Promise((resolve) => setTimeout(() => {resolve()}, 1000))
-
   }
 
-  static async getAll(offset = 0) {
+  static async getAll (offset = 0) {
     const allArticles = await db.articles
       .reverse()
       .offset(offset)
       .limit(10)
       .toArray()
 
-    // await new Promise((resolve) => setTimeout(() => {resolve()}, 1000))
-
     return allArticles
   }
 
-  static async getTopic(topic, offset = 0) {
+  static async getTopic (topic, offset = 0) {
     const topicArticles = await db.articles
       .where('topic')
       .equals(topic)
@@ -53,23 +47,20 @@ class Articles {
       .limit(10)
       .toArray()
 
-    // await new Promise((resolve) => setTimeout(() => {resolve()}, 1000))
-
     return topicArticles
   }
 
-  static async getAllCount() {
+  static async getAllCount () {
     return db.articles
       .count()
   }
 
-  static async getTopicCount(topic) {
+  static async getTopicCount (topic) {
     return db.articles
       .where('topic')
       .equals(topic)
       .count()
   }
-
 }
 
 export default Articles

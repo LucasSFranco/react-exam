@@ -1,10 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header properly renders 1`] = `
+exports[`Header matches snapshot 1`] = `
 <header
   class="sc-bdnxRM ebltpS header"
 >
   <a
+    data-test="nyt-logo"
     href="https://www.nytimes.com/"
     rel="noreferrer"
     target="_blank"

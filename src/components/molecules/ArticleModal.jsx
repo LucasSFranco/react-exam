@@ -17,7 +17,7 @@ function ArticleModal({ article, children }) {
     <Modal
       content={
         <Content
-          className="article"
+          className="article modal__card"
           data-testid="article-modal"
         >
           <div className="header">
@@ -75,7 +75,7 @@ const Content = styled.div`
   background: white;
   box-shadow: 0 5px 10px rgba(0, 0, 0, .05);
 
-  .header {
+  .header.modal__card {
     padding: 1rem 1.5rem;
     position: relative;
 

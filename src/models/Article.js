@@ -2,9 +2,8 @@ import moment from 'moment'
 import uniqid from 'uniqid'
 
 class Article {
-
-  constructor(data) {
-    this.id = data.id ?? uniqid(data.published_date)
+  constructor (data) {
+    this.id = data.id ?? Date.parse(data.published_date) + '-' + uniqid()
     this.abstract = data.abstract
     this.byLine = data.byLine ?? data.byline
     this.kicker = data.kicker
@@ -28,25 +27,24 @@ class Article {
         width: data.multimedia?.fullImage?.width ?? fullImage.width,
         height: data.multimedia?.fullImage?.height ?? fullImage.height,
         caption: data.multimedia?.fullImage?.caption ?? fullImage.caption,
-        copyright: data.multimedia?.fullImage?.copyright ?? fullImage.copyright,
+        copyright: data.multimedia?.fullImage?.copyright ?? fullImage.copyright
       },
       largeThumb: {
         url: data.multimedia?.largeThumb?.url ?? largeThumb.url,
         width: data.multimedia?.largeThumb?.width ?? largeThumb.width,
         height: data.multimedia?.largeThumb?.height ?? largeThumb.height,
         caption: data.multimedia?.largeThumb?.caption ?? largeThumb.caption,
-        copyright: data.multimedia?.largeThumb?.copyright ?? largeThumb.copyright,
-      },
+        copyright: data.multimedia?.largeThumb?.copyright ?? largeThumb.copyright
+      }
     }
   }
 
-  format(pattern = 'LLL') {
+  format (pattern = 'LLL') {
     return {
       ...this,
       publishedDate: moment(this.publishedDate).format(pattern)
     }
   }
-
 }
 
 export default Article

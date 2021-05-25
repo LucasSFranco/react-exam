@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Return To Top properly renders 1`] = `
+exports[`Button Return To Top matches snapshot 1`] = `
 <button
   class="sc-bdnxRM eJBsDS button return-to-top"
 >

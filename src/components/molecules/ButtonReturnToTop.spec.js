@@ -5,7 +5,7 @@ import ButtonReturnToTop from './ButtonReturnToTop'
 
 describe('Button Return To Top', () => {
 
-  it('properly renders', async () => {
+  it('matches snapshot', async () => {
 
     const { container } = render(
       <ButtonReturnToTop />

@@ -11,7 +11,7 @@ jest.mock("../atoms/Modal", () => {
 
 describe('Article Modal', () => {
 
-  it('properly renders article data', async () => {
+  it('matches snapshot', async () => {
 
     const { container } = render(
       <ArticleModal article={articles[0]}>

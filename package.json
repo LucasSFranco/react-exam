@@ -28,25 +28,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test-server": "cross-env REACT_APP_DATABASE=react-news-portal--test react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage --watchAll"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "<rootDir>/src/**/*.jsx?"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 90,
-        "lines": 90,
-        "statements": 90
-      }
-    },
-    "coverageReporters": [
-      "html",
-      "text"
-    ]
+    "test:unit": "react-scripts test --watchAll",
+    "test:e2e": "cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -65,5 +50,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.9.5",
+    "@cypress/instrument-cra": "^1.4.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "cross-env": "^7.0.3",
+    "cypress": "^7.4.0"
   }
 }

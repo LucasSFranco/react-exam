@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Article List Item properly renders article data 1`] = `
+exports[`Article List Item matches snapshot 1`] = `
 <div
   class="sc-bdnxRM leLQZM article list__item"
   data-testid="article-list-item"
@@ -9,7 +9,7 @@ exports[`Article List Item properly renders article data 1`] = `
     class="accessory"
   >
     <time>
-      May 19, 2021
+      May 24, 2021
     </time>
   </div>
   <div
@@ -17,30 +17,30 @@ exports[`Article List Item properly renders article data 1`] = `
   >
     <figure>
       <picture
-        style="padding-top: 66.650390625%;"
+        style="padding-top: 85.64453125%;"
       >
         <source
           media="(min-width: 768px)"
-          srcset="https://static01.nyt.com/images/2021/05/19/world/19china-mars01/merlin_187780170_e6f955da-f88e-4dfa-9513-845ef968ceda-mediumThreeByTwo210.jpg"
+          srcset="https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/00SpaceX-Texasborder-1-mediumThreeByTwo210-v2.jpg"
         />
         <img
-          alt="Coverage of the Mars landing on a screen in Beijing on Saturday. The first images from the lander were released on Wednesday."
-          src="https://static01.nyt.com/images/2021/05/19/world/19china-mars01/merlin_187780170_e6f955da-f88e-4dfa-9513-845ef968ceda-superJumbo.jpg"
+          alt=""
+          src="https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-superJumbo.jpg"
         />
       </picture>
       <figcaption>
-        Mark Schiefelbein/Associated Press
+        Christopher Lee for The New York Times
       </figcaption>
     </figure>
     <h6 />
     <h3>
-      China Releases First Photos From Its Mars Lander
+      A Serene Shore Resort, Except for the SpaceX ‘Ball of Fire’
     </h3>
     <p>
-      The country’s space agency said that the craft’s components, and those of the rover it would soon release, had “deployed in place normally.”
+      For years, those in a rural Texas village cherished living among nature and wildlife. Elon Musk’s SpaceX has brought new fears and the promise of an economic boost to one of America’s poorest corners.
     </p>
     <span>
-      By Steven Lee Myers
+      By Edgar Sandoval and Richard Webner
     </span>
   </div>
 </div>

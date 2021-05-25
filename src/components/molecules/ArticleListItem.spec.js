@@ -6,7 +6,7 @@ import articles from '../../../tests/fixtures/articles.json'
 
 describe('Article List Item', () => {
 
-  it('properly renders article data', async () => {
+  it('matches snapshot', async () => {
 
     const { container } = render(
       <ArticleListItem article={articles[0]} />

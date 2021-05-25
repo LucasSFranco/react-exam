@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { generatePath, useParams } from 'react-router'
 import { Link as RouterLink } from 'react-router-dom'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 import Container from '../atoms/Container'
 import { changeActiveTab, selectActiveTab, selectTabs } from '../../store/slices/newsSlice'
@@ -23,13 +23,13 @@ function Navbar() {
 
   return (
     <Self className="navbar">
-      <h1>{activeTab}</h1>
+      <h1 data-test="topic-navbar-title">{activeTab}</h1>
       <nav>
         {
           tabs.map(tab =>
             <Link
               key={tab}
-              selected={tab === activeTab}
+              className={tab === activeTab && 'selected'}
               to={
                 tab === 'all news' ? (
                   generatePath(routes.news.path, { type: null, topic: null })
@@ -38,6 +38,7 @@ function Navbar() {
                 )
               }
               onClick={() => dispatch(changeActiveTab(tab))}
+              data-test="topic-navbar-item"
             >
               {tab}
             </Link>
@@ -49,12 +50,8 @@ function Navbar() {
 }
 
 const Link = styled(RouterLink)`
-  ${
-    ({ selected }) => selected && css`
-      &&& {
-        font-weight: 600;
-      }
-    `
+  .selected {
+    font-weight: 600;
   }
 `
 

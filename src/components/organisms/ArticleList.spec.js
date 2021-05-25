@@ -27,6 +27,8 @@ describe('Article List', () => {
     Articles.getAll.mockResolvedValue(articles)
     Articles.getAllCount.mockResolvedValue(articles.length)
 
+    store.dispatch(changeActiveTab('all news'))
+
     const { container } = render(
       <Provider store={store}>
         <ArticleList />
@@ -34,7 +36,7 @@ describe('Article List', () => {
     )
 
     expect(await screen.findAllByTestId('article-list-item'))
-      .toHaveLength(articles.length)
+      .toHaveLength(20)
   })
 
   it('properly renders topic articles', async () => {
@@ -53,27 +55,6 @@ describe('Article List', () => {
     )
 
     expect(await screen.findAllByTestId('article-list-item'))
-      .toHaveLength(technologyArticles.length)
+      .toHaveLength(10)
   })
-
-  // it('properly renders topic articles', async () => {
-  //   const technologyArticles = articles
-  //     .filter(article => article.topic === 'technology')
-
-  //   Articles.getTopic.mockResolvedValue(technologyArticles)
-  //   Articles.getTopicCount.mockResolvedValue(technologyArticles.length)
-
-  //   store.dispatch(changeActiveTab('technology'))
-
-  //   const { container } = render(
-  //     <Provider store={store}>
-  //       <ArticleList />
-  //     </Provider>
-  //   )
-
-  //   expect(await screen.findAllByTestId('article-list-item'))
-  //     .toHaveLength(technologyArticles.length)
-
-  //   expect(container.firstChild).toMatchSnapshot()
-  // })
 })

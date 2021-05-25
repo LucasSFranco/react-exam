@@ -5,10 +5,10 @@ import Breadcrumb from './Breadcrumb'
 
 describe('Breadcrumb', () => {
 
-  it('properly renders', async () => {
+  it('matches snapshot', async () => {
 
     const { container } = render(
-      <Breadcrumb items={['item 1', 'item 2', 'item 3']} />
+      <Breadcrumb items={['item 1', 'item 2', '']} />
     )
 
     expect(container.firstChild).toMatchSnapshot()
