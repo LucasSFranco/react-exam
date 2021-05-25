@@ -3,7 +3,7 @@
 exports[`Article Modal matches snapshot 1`] = `
 <div>
   <div
-    class="sc-gtsrHT kKQfMv article modal__card"
+    class="sc-gtsrHT tpmyS article modal__card"
     data-testid="article-modal"
   >
     <div

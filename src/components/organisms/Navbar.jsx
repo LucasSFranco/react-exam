@@ -49,11 +49,7 @@ function Navbar() {
   )
 }
 
-const Link = styled(RouterLink)`
-  .selected {
-    font-weight: 600;
-  }
-`
+const Link = styled(RouterLink)``
 
 const Self = styled(Container)`
   margin-top: 5rem;
@@ -88,6 +84,10 @@ const Self = styled(Container)`
 
       &:hover {
         text-decoration: underline;
+      }
+
+      &.selected {
+        font-weight: 600;
       }
     }
   }

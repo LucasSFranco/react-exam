@@ -75,7 +75,7 @@ const Content = styled.div`
   background: white;
   box-shadow: 0 5px 10px rgba(0, 0, 0, .05);
 
-  .header.modal__card {
+  .header {
     padding: 1rem 1.5rem;
     position: relative;
 
