@@ -20,6 +20,7 @@ O aplicativo é um portal de notícias desenvolvido em React.js para a exibiçã
   - store: serve para gerenciar o estado da aplicação. 
   - styles: possui os estilos globais da aplicação.
   - views: possui as rotas e as páginas da aplicação.
+- Testes: Foi optado por fazer os testes mais importantes da aplicação por meio do Cypress, no qual é testada toda a funcionalidade, para facilitar a equalização dos testes nos dois projetos. Além disso, também foram feitos alguns testes de componente, sobretudo utilizando _snapshot_, para garantir que os componentes estão sendo gerados corretamente.
   
 ### 🔧 Instalação e execução
 Clone o projeto e acesse a pasta:
@@ -27,20 +28,26 @@ Clone o projeto e acesse a pasta:
 $ https://github.com/LucasSFranco/react-exam.git && cd react-exam
 ```
 
-Siga os passos abaixo:
+Comandos:
 ```bash
-# instale as dependências
+# instala as dependências
 $ yarn
 
-# inicie o projeto
+# compila e recarrega automaticamente para desenvolvimento
 $ yarn start
 
-# ou
+# compila e minifica para produção
+$ yarn start
 
-# instale as dependências
-$ npm install
+# executa os testes unitários
+yarn test:unit
 
-# inicie o projeto
-$ npm run start
+# compila e recarrega automaticamente para os testes e2e
+yarn test-server
+
+# executa os testes e2e
+yarn test:e2e
 ```
+___OBS___: Após executar os testes e2e, é possível visualizar o _coverage report_ dos testes: `react-exam/coverage/lcov-report/index.html`.
+
 
