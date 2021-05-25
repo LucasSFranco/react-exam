@@ -40,13 +40,13 @@ $ yarn start
 $ yarn build
 
 # executa os testes unitários
-yarn test:unit
+$ yarn test:unit
 
 # compila e recarrega automaticamente para os testes e2e
-yarn test-server
+$ yarn test-server
 
 # executa os testes e2e
-yarn test:e2e
+$ yarn test:e2e
 ```
 ___OBS___: Após executar os testes e2e, é possível visualizar o _coverage report_ dos testes: `react-exam/coverage/lcov-report/index.html`.
 
